@@ -1,10 +1,13 @@
-export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.advantaservices.co.uk";
+export const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL?.trim() || "https://www.advantaservices.co.uk";
 
 const whatsappPrefill =
   "I've been on the Advanta Services website, and the project I'd like to discuss is...";
 
+const defaultWhatsappUrl = "https://wa.me/447554576889";
+
 function whatsappLink(base: string) {
-  const url = new URL(base);
+  const url = new URL(base.trim() || defaultWhatsappUrl);
   if (!url.searchParams.has("text")) {
     url.searchParams.set("text", whatsappPrefill);
   }
@@ -19,7 +22,7 @@ export const business = {
   phoneDisplay: "07554 576889",
   phoneTel: "tel:+447554576889",
   email: "chris@advantaservices.co.uk",
-  whatsappUrl: whatsappLink(process.env.NEXT_PUBLIC_WHATSAPP_URL ?? "https://wa.me/447554576889"),
+  whatsappUrl: whatsappLink(process.env.NEXT_PUBLIC_WHATSAPP_URL || defaultWhatsappUrl),
   ogImagePath: "/advanta/logo/lockup-on-light.png",
   isOpen24Hours: false,
   isServiceAreaBusiness: true,

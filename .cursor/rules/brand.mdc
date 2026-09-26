@@ -1,0 +1,34 @@
+---
+description: Advanta Services brand, copy and UI rules
+alwaysApply: true
+---
+
+# Advanta Services brand
+
+British English only (colour, organise, specialised, enquiry). Dates DD/MM/YYYY. 24-hour clock.
+
+Legal name: Advanta Services LTD. Trading as Advanta Electrical & Climate. Domain: advantaservices.co.uk.
+
+## Palette (CSS tokens in `src/app/globals.css`)
+
+Light: background `#F4F7F9`, ink `#0C141A`, brand `#00AEEF`, brand-strong `#0078A8`.
+Dark: background `#070B0E`, brand and brand-strong `#00AEEF`.
+
+CJM teal `#0E9594` is retired. Never use Tailwind `blue-*` on marketing UI. Never put white text on raw `#00AEEF` in light mode — use `--brand-strong`.
+
+Buttons: `rounded-md` (6px), not pills. Geist Sans / Geist Mono via `next/font`. No Inter. No Work Sans. No shadcn marketing UI. No gradients, glassmorphism or purple SaaS overlays. PNGs only for the Advanta mark — do not use the logo SVGs.
+
+## Claims we do not make
+
+- Years in business
+- 24/7 or out of hours
+- Fake reviews, star ratings or AggregateRating
+- Accreditation logos (no NICEIC / NAPIT / F-Gas / Refcom)
+- National coverage — 30 miles from Pinchbeck PE11 3XD
+- Invented photos or kit we do not have
+
+Copy: lots of experience, qualified and insured, two trades with equal weight (electrical and air conditioning). Towns: Spalding, Pinchbeck, Peterborough, Wisbech, Boston, Stamford.
+
+Banned phrases: “Get started”, “10x”, stock van clichés.
+
+Phone display: 07554 576889. Email: chris@advantaservices.co.uk.

@@ -7,7 +7,6 @@ export const metadata = buildPageMetadata({
   description:
     "Advanta Services LTD trades as Advanta Electrical & Climate. Electrical and air conditioning around Spalding and Peterborough. Qualified and insured.",
   path: "/about",
-  image: "/advanta/photos/about/van.webp",
 });
 
 export default function AboutPage() {

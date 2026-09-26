@@ -68,7 +68,16 @@ export function PageHero({
 
   return (
     <section className={`${heightClass} relative isolate scroll-mt-0 overflow-hidden bg-viewer`}>
-      <Image src={imageSrc} alt={imageAlt} fill priority sizes="100vw" className="object-cover object-center" />
+      <Image
+        src={imageSrc}
+        alt={imageAlt}
+        fill
+        unoptimized
+        preload
+        loading="eager"
+        fetchPriority="high"
+        className="object-cover object-center"
+      />
       <div className="advanta-hero-overlay absolute inset-0" aria-hidden />
       {backHref && backLabel ? (
         <nav aria-label="Breadcrumb" className="absolute inset-x-0 top-5 z-10 md:top-7">

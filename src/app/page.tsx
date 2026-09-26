@@ -12,8 +12,6 @@ export const metadata = buildPageMetadata({
   description:
     "Advanta Services: electrical and air conditioning around Spalding and Peterborough. Rewires, EICRs, lighting, EV charging and air-con.",
   path: "/",
-  image: "/advanta/photos/hero/van.webp",
-  imageAlt: "Advanta Services van on a commercial air-conditioning job",
 });
 
 export default function Home() {

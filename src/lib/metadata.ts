@@ -5,17 +5,21 @@ type PageMetadataInput = {
   title: string;
   description: string;
   path: string;
-  image?: string;
-  imageAlt?: string;
   noIndex?: boolean;
+};
+
+const shareImage = {
+  url: business.ogImagePath,
+  width: business.ogImageWidth,
+  height: business.ogImageHeight,
+  alt: `${business.name}, electrical and climate`,
+  type: "image/png",
 };
 
 export function buildPageMetadata({
   title,
   description,
   path,
-  image = business.ogImagePath,
-  imageAlt = `${business.name}, electrical and air conditioning`,
   noIndex = false,
 }: PageMetadataInput): Metadata {
   const url = path === "/" ? siteUrl : `${siteUrl}${path}`;
@@ -32,13 +36,13 @@ export function buildPageMetadata({
       siteName: business.name,
       locale: "en_GB",
       type: "website",
-      images: [{ url: image, width: 1200, height: 630, alt: imageAlt }],
+      images: [shareImage],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: [image],
+      images: [shareImage],
     },
   };
 }

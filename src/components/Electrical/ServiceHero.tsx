@@ -32,7 +32,16 @@ export function ServiceHero({
 }: ServiceHeroProps) {
   return (
     <section className="advanta-hero-min-h-sm relative isolate overflow-hidden bg-viewer">
-      <Image src={imageSrc} alt={imageAlt} fill priority sizes="100vw" className="object-cover object-center" />
+      <Image
+        src={imageSrc}
+        alt={imageAlt}
+        fill
+        unoptimized
+        preload
+        loading="eager"
+        fetchPriority="high"
+        className="object-cover object-center"
+      />
       <div className="advanta-hero-overlay absolute inset-0" aria-hidden />
       <div className={`advanta-hero-min-h-sm relative mx-auto flex w-full max-w-7xl items-end px-6 pt-16 md:items-center ${HERO_BOTTOM_ONLY}`}>
         <RevealBlock variant="rise" className="max-w-3xl space-y-5">

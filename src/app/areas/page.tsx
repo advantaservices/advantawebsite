@@ -8,7 +8,6 @@ export const metadata = buildPageMetadata({
   description:
     "A small local firm based around Spalding and Peterborough, also covering Lincolnshire, Cambridgeshire, Norfolk, Suffolk, Essex, Hertfordshire, Northamptonshire and Rutland.",
   path: "/areas",
-  image: "/advanta/photos/hero/van.webp",
 });
 
 export default function AreasPage() {

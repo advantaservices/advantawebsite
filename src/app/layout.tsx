@@ -69,7 +69,15 @@ export const metadata: Metadata = {
     title: "Electrician & Air Conditioning in Spalding | Advanta",
     description: siteDescription,
     siteName: business.name,
-    images: [{ url: business.ogImagePath, width: 1200, height: 630, alt: `${business.name} logo` }],
+    images: [
+      {
+        url: business.ogImagePath,
+        width: business.ogImageWidth,
+        height: business.ogImageHeight,
+        alt: `${business.name}, electrical and climate`,
+        type: "image/png",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",

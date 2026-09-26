@@ -13,7 +13,6 @@ export const metadata = buildPageMetadata({
   title: "Contact Advanta Services | Get a Quote",
   description: `Enquire for electrical or air conditioning around Spalding and Peterborough. Call ${business.phoneDisplay} or send the form.`,
   path: "/contact",
-  image: "/advanta/photos/about/engineer.webp",
 });
 
 function ContactFormFallback() {

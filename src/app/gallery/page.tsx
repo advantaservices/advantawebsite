@@ -6,7 +6,6 @@ export const metadata = buildPageMetadata({
   title: "Gallery | Advanta Electrical & Climate",
   description: "Finished electrical and air-conditioning jobs around Spalding and Peterborough. Real sites, no stock vans.",
   path: "/gallery",
-  image: "/advanta/photos/electrical/showroom-lighting.webp",
 });
 
 export default function GalleryPage() {

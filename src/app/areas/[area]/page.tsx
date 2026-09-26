@@ -22,8 +22,6 @@ export async function generateMetadata({ params }: Params) {
     title: location.metaTitle,
     description: location.metaDescription,
     path: `/areas/${location.slug}`,
-    image: location.heroImage,
-    imageAlt: location.heroImageAlt,
   });
 }
 

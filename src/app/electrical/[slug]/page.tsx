@@ -17,8 +17,6 @@ export async function generateMetadata({ params }: Params) {
     title: page.meta.title,
     description: page.meta.description,
     path: page.path,
-    image: page.hero.imageSrc,
-    imageAlt: page.hero.imageAlt,
   });
 }
 

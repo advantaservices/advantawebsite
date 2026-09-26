@@ -9,7 +9,6 @@ export const metadata = buildPageMetadata({
   description:
     "Domestic and commercial air conditioning around Spalding and Peterborough. Single and multi-split installation, servicing, fault finding, repairs and replacements. Most new systems: 5-year warranty.",
   path: "/air-conditioning",
-  image: "/advanta/photos/climate/fujitsu-living-room.webp",
 });
 
 export default function ClimateIndexPage() {

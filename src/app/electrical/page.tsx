@@ -9,7 +9,6 @@ export const metadata = buildPageMetadata({
   description:
     "Domestic, commercial and agricultural electrical work around Spalding and Peterborough. Rewires, fuseboards, lighting, three-phase, EICRs, EV charging, PAT testing, alarms and CCTV.",
   path: "/electrical",
-  image: "/advanta/photos/electrical/showroom-lighting.webp",
 });
 
 export default function ElectricalIndexPage() {

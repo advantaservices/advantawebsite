@@ -15,12 +15,12 @@ export default function ClimateIndexPage() {
   return (
     <>
       <JsonLd
-        data={breadcrumbJsonLd([{ name: "Home", path: "/" }, { name: "Air conditioning", path: "/air-conditioning" }])}
+        data={breadcrumbJsonLd([{ name: "Home", path: "/" }, { name: "Air Conditioning", path: "/air-conditioning" }])}
       />
       <PageHero
-        eyebrow="Air conditioning"
-        title="Air conditioning for homes and commercial sites"
-        lead="This is the climate side of the firm: air conditioning for houses and commercial sites. Install, service and repair. Fujitsu, Daikin, Mitsubishi and Haier. Most new systems carry a 5-year warranty."
+        eyebrow="Air Conditioning"
+        title="Air Conditioning for homes and commercial sites"
+        lead="This is the climate side of the firm: Air Conditioning for houses and commercial sites, single-split and multi-split. The electrical supply is part of the install."
         imageSrc="/advanta/photos/climate/fujitsu-living-room.webp"
         imageAlt="Fujitsu indoor air-conditioning unit in a living room"
         compact
@@ -28,7 +28,7 @@ export default function ClimateIndexPage() {
       />
       <ServiceIndexGrid
         items={CLIMATE_NAV_LINKS}
-        eyebrow="Air conditioning"
+        eyebrow="Air Conditioning"
         title="Install or service"
         lead="Installation for a new system, or servicing and repair for plant that is already on the wall."
       />

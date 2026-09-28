@@ -122,7 +122,6 @@ export function SiteFooter() {
                   {business.phoneDisplay}
                 </a>
               </p>
-              <p className="text-muted text-xs">Monday to Friday, 08:00 to 17:00.</p>
             </div>
             {socials.length > 0 ? (
               <div className="mt-4 flex flex-wrap items-center gap-2" aria-label="Advanta Services on social media">
@@ -154,7 +153,7 @@ export function SiteFooter() {
             />
             <FooterColumn
               id="footer-climate-links"
-              label="Air conditioning"
+              label="Air Conditioning"
               labelHref="/air-conditioning"
               links={CLIMATE_NAV_LINKS.map((link) => ({ label: link.label, href: link.href }))}
             />
@@ -164,7 +163,7 @@ export function SiteFooter() {
 
         <div className="mt-8 flex flex-col gap-3 border-t border-[color:var(--nav-footer-edge)] pt-6 text-xs text-foreground md:flex-row md:items-center md:justify-between">
           <div>
-            <p className="mb-1">{business.legalName}, trading as {business.tradingAs}.</p>
+            <p className="mb-1">{business.legalName}. {business.tagline}.</p>
             <p>© {new Date().getFullYear()} {business.name}. All rights reserved.</p>
           </div>
           <nav aria-label="Legal and policies" className="flex flex-wrap gap-x-3 gap-y-1">

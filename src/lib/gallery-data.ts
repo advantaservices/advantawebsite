@@ -43,7 +43,7 @@ export function galleryNote(kind: GalleryKind) {
 }
 
 export const galleryItems: GalleryItem[] = [
-  { src: "/advanta/photos/electrical/showroom-lighting.webp", alt: "Commercial showroom pendant lighting", label: "Showroom pendant lighting install", trade: "electrical", finish: "commercial", kind: "commercial-lighting" },
+  { src: "/advanta/photos/electrical/showroom-lighting.webp", alt: "Commercial showroom lighting installation", label: "Commercial showroom lighting installation", trade: "electrical", finish: "commercial", kind: "commercial-lighting" },
   { src: "/advanta/photos/electrical/media-wall-lighting.webp", alt: "Residential media-wall pendant lighting", label: "House media wall pendant lights", trade: "electrical", finish: "domestic", kind: "domestic-lighting" },
   { src: "/advanta/photos/electrical/landing-handrail.webp", alt: "LED handrail lighting on a landing", label: "LED handrail lighting on a landing", trade: "electrical", finish: "domestic", kind: "domestic-lighting" },
   { src: "/advanta/photos/electrical/outdoor-patio.webp", alt: "Outdoor patio wall lights at night", label: "Outdoor patio wall lights at night", trade: "electrical", finish: "domestic", kind: "outdoor-lighting" },
@@ -54,13 +54,13 @@ export const galleryItems: GalleryItem[] = [
   { src: "/advanta/photos/electrical/warehouse-floodlights.webp", alt: "Warehouse floodlights at night", label: "Warehouse floodlights at night", trade: "electrical", finish: "commercial", kind: "commercial-lighting" },
   { src: "/advanta/photos/hero/gym-led-ceiling.webp", alt: "Gym LED ceiling lighting", label: "Fitted LED ceiling lights in a gym", trade: "electrical", finish: "commercial", kind: "commercial-lighting" },
   { src: "/advanta/photos/hero/pool-house-night.webp", alt: "Pool house lighting at night", label: "Pool house lighting at night", trade: "electrical", finish: "domestic", kind: "domestic-lighting" },
-  { src: "/advanta/photos/hero/ford-showroom.webp", alt: "Ford showroom commercial lighting", label: "Ford showroom lighting install", trade: "electrical", finish: "commercial", kind: "commercial-lighting" },
+  { src: "/advanta/photos/hero/ford-focus-desktop.webp", alt: "Commercial showroom lighting installation", label: "Commercial showroom lighting installation", trade: "electrical", finish: "commercial", kind: "commercial-lighting" },
   { src: "/advanta/photos/climate/fujitsu-living-room.webp", alt: "Fujitsu indoor unit in a living room", label: "Living room Fujitsu air con unit", trade: "air-con", finish: "domestic", kind: "air-con-house" },
   { src: "/advanta/photos/climate/daikin-kitchen.webp", alt: "Daikin indoor unit in a kitchen", label: "Daikin air con unit in the kitchen", trade: "air-con", finish: "domestic", kind: "air-con-house" },
   { src: "/advanta/photos/climate/fujitsu-bedroom.webp", alt: "Fujitsu indoor unit in a bedroom", label: "Fujitsu air con unit in a bedroom", trade: "air-con", finish: "domestic", kind: "air-con-house" },
   { src: "/advanta/photos/climate/fujitsu-commercial-four.webp", alt: "Four Fujitsu outdoor units on a commercial site", label: "Four commercial Fujitsu units", trade: "air-con", finish: "commercial", kind: "air-con-commercial" },
   { src: "/advanta/photos/climate/haier-dual-residential.webp", alt: "Haier dual outdoor units on a house", label: "Dual Haier units on a house", trade: "air-con", finish: "domestic", kind: "air-con-house" },
-  { src: "/advanta/photos/climate/engineer-airstage.webp", alt: "Engineer installing a Fujitsu Airstage system", label: "Fujitsu Airstage system install", trade: "air-con", finish: "commercial", kind: "air-con-commercial" },
+  { src: "/advanta/photos/climate/engineer-airstage.webp", alt: "Engineer installing a Fujitsu air-conditioning system", label: "Fujitsu system install", trade: "air-con", finish: "commercial", kind: "air-con-commercial" },
   { src: "/advanta/photos/climate/service-charging.webp", alt: "Outdoor unit being serviced", label: "Outdoor air con service visit", trade: "air-con", finish: "commercial", kind: "air-con-service" },
   { src: "/advanta/photos/climate/mitsubishi-outdoor.webp", alt: "Mitsubishi outdoor condenser on a brick house", label: "Mitsubishi outdoor unit on a house", trade: "air-con", finish: "domestic", kind: "air-con-house" },
   { src: "/advanta/photos/about/van.webp", alt: "Residential air con install", label: "Residential outdoor air con install", trade: "air-con", finish: "domestic", kind: "air-con-house" },

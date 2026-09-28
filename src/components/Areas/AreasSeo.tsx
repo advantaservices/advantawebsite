@@ -10,9 +10,9 @@ export function AreasSeo() {
     <Section id="counties" muted majorSeam>
       <RevealBlock variant="fade-up" className="mx-auto max-w-3xl text-center">
         <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-strong md:text-xs">Wider patch</p>
-        <h2 className="mt-2 text-2xl font-semibold tracking-tight md:text-3xl">Counties and towns</h2>
+        <h2 className="mt-2 text-2xl font-semibold tracking-tight md:text-3xl">Towns and villages</h2>
         <p className="text-muted mx-auto mt-3 max-w-2xl text-sm leading-relaxed md:text-base">
-          Every county on the map has a page. Spalding, Peterborough, Wisbech, Boston and Stamford each have a town page as well.
+          Spalding, Peterborough, Wisbech, Boston and Stamford are the larger towns. The villages around them are listed under each area, and every area on the map has its own page.
         </p>
       </RevealBlock>
       <ul className="areas-counties mx-auto mt-8 grid max-w-7xl gap-6 sm:grid-cols-2 lg:grid-cols-4">

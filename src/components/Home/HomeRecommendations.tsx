@@ -6,27 +6,96 @@ import { Section } from "@/components/Layout/Section";
 
 const recommendations = [
   {
-    initials: "M.C.",
+    initials: "Matthew Clark",
     letters: "MC",
-    place: "Pinchbeck",
-    date: "29/11/2025",
+    place: "Google",
+    date: "4 months ago",
     quote:
-      "Highly recommended. Chris very professional, reliable and friendly. Fitted us in sooner than expected too.",
+      "Advanta Services installed a Fujitsu Airstage air conditioning system for us. Very professional and knowledgeable from quotation to completion. Great communication and very reliable. Highly recommend Chris @ Advanta Services. We are extremely pleased with our installation.",
   },
   {
-    initials: "C.B.",
-    letters: "CB",
-    place: "Althorne",
-    date: "14/01/2024",
-    quote:
-      "Friendly, efficient, reliable service. Chris was easy to deal with, turned up when he said, and finished the work properly.",
+    initials: "Andrew Croker",
+    letters: "AC",
+    place: "Google",
+    date: "2 months ago",
+    quote: "I had a EV charger installed by Chris from Advanta Services, and the experience…",
   },
   {
-    initials: "I.B.",
-    letters: "IB",
-    place: "Althorne",
-    date: "14/01/2024",
-    quote: "Highly recommended, great service at a good price. We were kept informed and the job was done as agreed.",
+    initials: "Gary Read",
+    letters: "GR",
+    place: "Google",
+    date: "4 months ago",
+    quote:
+      "Fabulous service from start to finish. Installed AC in our bedroom. Nice tidy work and good communication throughout. Definitely recommend",
+  },
+  {
+    initials: "Ryan Burgess",
+    letters: "RB",
+    place: "Google",
+    date: "4 months ago",
+    quote:
+      "Had some electrical work done by Chris recently and couldn’t be happier. Turned up on time, really professional, tidy work and everything was done to a high standard. Great communication throughout and very fair pricing too. You can tell he takes pride in his work. Would definitely recommend to anyone needing electrical work done.",
+  },
+  {
+    initials: "Harrison Price",
+    letters: "HP",
+    place: "Google",
+    date: "4 months ago",
+    quote:
+      "Excellent company and customer service! Answered all my questions would definetly recommend and will use them again.",
+  },
+  {
+    initials: "JetNow Drainage",
+    letters: "JN",
+    place: "Google",
+    date: "4 months ago",
+    quote:
+      "They were professional, punctual, and clearly very knowledgeable. The work was completed to a high standard, everything was explained clearly, and they left the area clean and tidy afterwards.",
+  },
+  {
+    initials: "Luke Simmons",
+    letters: "LS",
+    place: "Google",
+    date: "3 months ago",
+    quote:
+      "Really positive experience. Chris installed aircon for us, his work was extremely professional and neat, explained everything clearly. Will definitely be using him again for electrical work.",
+  },
+  {
+    initials: "Jove Brown",
+    letters: "JB",
+    place: "Google",
+    date: "4 months ago",
+    quote: "Had them over for a full rewire , top service, clean and tidy work , only company I’ll use from now on!!",
+  },
+  {
+    initials: "Harvey",
+    letters: "H",
+    place: "Google",
+    date: "4 months ago",
+    quote: "Chris installed aircon at short notice to our house and it’s brilliant. Cheers Chris!",
+  },
+  {
+    initials: "Abbie Martin",
+    letters: "AM",
+    place: "Google",
+    date: "4 months ago",
+    quote: "Great company who did an excellent job, definitely recommend",
+  },
+  {
+    initials: "Emily S",
+    letters: "ES",
+    place: "Google",
+    date: "a week ago",
+    quote:
+      "Absolutely brilliant service from start to finish. There was a delay with the product, but I was kept fully informed the whole time, and the communication and customer service were excellent.",
+  },
+  {
+    initials: "Melisa Laycock-van Spyk",
+    letters: "ML",
+    place: "Google",
+    date: "2 weeks ago",
+    quote:
+      "We are really happy with the Air Conditioning unit installed by Chris and Josh. Despite a surge in demand for units resulting in some slight delays due to the repeated heatwaves this summer, I was really happy with the turnaround from…",
   },
 ] as const;
 
@@ -54,7 +123,9 @@ function ReviewCard({
       className={`flex w-[19.5rem] shrink-0 flex-col rounded-md border border-[var(--border)] bg-[var(--surface)] p-5 sm:w-[22rem] ${className}`}
     >
       <Stars />
-      <p className="mt-3 text-sm leading-relaxed text-foreground">&ldquo;{item.quote}&rdquo;</p>
+      <p className="mt-3 line-clamp-3 min-h-[4.875em] text-sm leading-relaxed text-foreground md:line-clamp-4 md:min-h-[6.5em]">
+        &ldquo;{item.quote}&rdquo;
+      </p>
       <div className="mt-5 flex items-center gap-3">
         <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-button text-xs font-semibold tracking-wide text-button-ink">
           {item.letters}
@@ -62,7 +133,7 @@ function ReviewCard({
         <span className="min-w-0">
           <span className="block text-sm font-semibold text-foreground">{item.initials}</span>
           <span className="text-muted block text-xs">
-            {item.place} · {item.date} · Nextdoor
+            {item.place} · {item.date}
           </span>
         </span>
       </div>
@@ -84,7 +155,7 @@ function ReviewStrip() {
     >
       <div className="flex">
         {slides.map((item, index) => (
-          <div key={`${item.initials}-${index}`} className="mr-4 min-w-0 shrink-0">
+          <div key={`${item.initials}-${index}`} className="mr-4 flex min-w-0 shrink-0">
             <ReviewCard item={item} />
           </div>
         ))}
@@ -104,7 +175,7 @@ export function HomeRecommendations() {
           What customers have said
         </h2>
         <p className="text-muted mx-auto mt-3 max-w-2xl text-sm leading-relaxed md:text-base">
-          A few notes left on Nextdoor. Chris can replace these with newer ones when he has them.
+          Taken from the Google reviews. The wording is theirs.
         </p>
       </div>
 
@@ -118,7 +189,7 @@ export function HomeRecommendations() {
 
       <ReviewStrip />
 
-      <ul className="mx-auto mt-8 hidden max-w-6xl grid-cols-1 gap-4 motion-reduce:grid md:grid-cols-3">
+      <ul className="mx-auto mt-8 hidden max-w-6xl grid-cols-1 gap-4 motion-reduce:grid md:grid-cols-2 lg:grid-cols-3">
         {recommendations.map((item) => (
           <li key={item.initials}>
             <ReviewCard item={item} className="w-full" />

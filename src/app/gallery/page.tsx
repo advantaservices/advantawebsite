@@ -3,7 +3,7 @@ import { GalleryGrid } from "@/components/Gallery/GalleryGrid";
 import { JsonLd, breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
 
 export const metadata = buildPageMetadata({
-  title: "Gallery | Advanta Electrical & Climate",
+  title: "Gallery | Advanta Services",
   description: "Finished electrical and air-conditioning jobs around Spalding and Peterborough. Real sites, no stock vans.",
   path: "/gallery",
 });

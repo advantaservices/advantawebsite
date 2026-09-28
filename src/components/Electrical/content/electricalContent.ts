@@ -13,15 +13,15 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
       eyebrow: "Electrical",
       title: "Full and partial rewires",
       lead: "Renovation first-fix, consumer unit upgrades as part of a rewire, and making older houses safe to live in. The photos are real jobs.",
-      imageSrc: "/advanta/photos/electrical/rewire-exposed.webp",
-      imageAlt: "Exposed first-fix cables during a house rewire",
+      imageSrc: "/advanta/photos/electrical/rewire-trunking.webp",
+      imageAlt: "Trunking and first-fix cabling during a rewire",
       primaryCtaLabel: "Get a rewire quote",
     },
     features: {
       title: "Rewires we take on",
       lead: "Full-house rewires, and partial jobs where only some circuits need replacing. Lived-in houses and first-fix renovations around Spalding, Pinchbeck and Peterborough.",
-      imageSrc: "/advanta/photos/electrical/rewire-first-fix.webp",
-      imageAlt: "Consumer unit first-fix cables during a rewire",
+      imageSrc: "/advanta/photos/electrical/rewire-exposed.webp",
+      imageAlt: "Exposed first-fix cables during a house rewire",
       blocks: [
         {
           title: "Full rewires",
@@ -183,15 +183,15 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
       eyebrow: "Electrical",
       title: "EICR testing",
       lead: "Condition reports that tell you what is actually wrong. Including the burnt sockets and tired boards we photograph on real jobs.",
-      imageSrc: "/advanta/photos/electrical/eicr-rcbo.webp",
-      imageAlt: "RCBO consumer unit prepared for EICR testing",
+      imageSrc: "/advanta/photos/electrical/eicr-old-board.webp",
+      imageAlt: "Older consumer unit opened during an EICR",
       primaryCtaLabel: "Book an EICR",
     },
     features: {
       title: "What an EICR covers",
       lead: "Inspection and testing of the fixed wiring, written so a landlord, agent or homeowner can act on it. Portable appliances are a PAT test, booked separately.",
-      imageSrc: "/advanta/photos/electrical/eicr-burnt-socket.webp",
-      imageAlt: "Burnt surface-mount socket found during inspection",
+      imageSrc: "/advanta/photos/electrical/eicr-distribution-board.webp",
+      imageAlt: "Distribution board labelled during an EICR",
       blocks: [
         {
           title: "The inspection",
@@ -269,7 +269,7 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
       title: "Indoor and outdoor lighting",
       lead: "Showrooms, landings, media walls, patio lights and commercial track. Finished work we have actually installed.",
       imageSrc: "/advanta/photos/electrical/showroom-lighting.webp",
-      imageAlt: "Finished commercial showroom pendant lighting",
+      imageAlt: "Commercial showroom lighting installation",
       primaryCtaLabel: "Get a lighting quote",
     },
     features: {
@@ -863,8 +863,8 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
       eyebrow: "Electrical",
       title: "PAT testing",
       lead: "In-service inspection and testing of portable appliances. A written record of what passed and what needs taking out of use.",
-      imageSrc: "/advanta/photos/electrical/consumer-unit-labelled.webp",
-      imageAlt: "Labelled consumer unit in a property where portable appliances are tested",
+      imageSrc: "/advanta/photos/electrical/pat-testing.webp",
+      imageAlt: "PAT tester and labelled extension lead during portable appliance testing",
       primaryCtaLabel: "Book PAT testing",
     },
     features: {

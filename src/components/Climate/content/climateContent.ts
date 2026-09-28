@@ -12,26 +12,26 @@ export const climateContent: Record<string, ServiceLandingContent> = {
     hero: {
       eyebrow: "Air conditioning",
       title: "Single and multi-split installation",
-      lead: "Domestic and commercial air conditioning. Single splits for one room, multi-split where you need more. Fujitsu, Daikin, Mitsubishi and Haier. Most systems: 5-year warranty.",
+      lead: "Domestic and commercial air conditioning. Single-split for one room, multi-split where you need more. The electrical supply is part of the install. Fujitsu, Daikin, Mitsubishi and Haier. Most systems: 5-year warranty.",
       imageSrc: "/advanta/photos/climate/fujitsu-living-room.webp",
       imageAlt: "Fujitsu indoor air-conditioning unit in a living room",
       primaryCtaLabel: "Get an air-con quote",
     },
     features: {
       title: "Systems we install",
-      lead: "Single splits for one room, and multi-split where you need more. Houses and commercial sites. Fujitsu, Daikin, Mitsubishi and Haier, with the electrics included.",
+      lead: "Single-split for one room, and multi-split where you need more, in homes and on commercial sites. Fujitsu, Daikin, Mitsubishi and Haier. The electrical supply, from the consumer unit to the equipment, is part of the job.",
       imageSrc: "/advanta/photos/climate/fujitsu-commercial-four.webp",
       imageAlt: "Four Fujitsu outdoor units on a commercial install",
       blocks: [
         {
           title: "Homes",
           intro: "Sized to the room, with the outdoor unit sited so the pipe run is sensible.",
-          items: ["Living rooms, bedrooms and kitchens", "Quiet indoor units", "Outdoor units on patios, walls and side passages"],
+          items: ["Single-split and multi-split", "Living rooms, bedrooms and kitchens", "Outdoor units on patios, walls and side passages"],
         },
         {
           title: "Commercial",
           intro: "Workshops, showrooms, and replacement of plant that is already on site.",
-          items: ["Multi-split and Airstage", "Workshop and showroom cooling", "Replacement of existing plant"],
+          items: ["Single-split and multi-split", "Workshop and showroom cooling", "The electrical supply included"],
         },
       ],
     },
@@ -67,8 +67,8 @@ export const climateContent: Record<string, ServiceLandingContent> = {
       },
       {
         question: "Can one install cover more than a single room?",
-        answer: "One room is a single split. Several rooms, or a commercial space, can be a multi-split or an Airstage system. We price the arrangement that actually fits the building.",
-        answerMobile: "A single split covers one room. For several rooms, or a commercial space, we look at multi-split or Airstage and price that instead.",
+        answer: "One room is a single-split. Several rooms, in a house or on a commercial site, is a multi-split. We price the arrangement that actually fits the building, and the electrical supply is included.",
+        answerMobile: "A single-split covers one room. For several rooms, at home or on a commercial site, we use a multi-split. The electrical supply is part of that price.",
       },
       {
         question: "Where can the outdoor unit sit?",
@@ -185,8 +185,8 @@ export const climateContent: Record<string, ServiceLandingContent> = {
       eyebrow: "Air conditioning",
       title: "Fault finding and repairs",
       lead: "A system that has stopped cooling, is leaking, or is making a noise. We find the fault before we order parts.",
-      imageSrc: "/advanta/photos/climate/service-charging.webp",
-      imageAlt: "Outdoor air-conditioning unit being worked on",
+      imageSrc: "/advanta/photos/climate/repair-outdoor-board.webp",
+      imageAlt: "Outdoor air-conditioning unit opened for a repair",
       primaryCtaLabel: "Report a fault",
     },
     features: {
@@ -271,8 +271,8 @@ export const climateContent: Record<string, ServiceLandingContent> = {
       eyebrow: "Air conditioning",
       title: "Replacement and upgrade",
       lead: "Swap an old or failed system for a new one. Domestic and commercial. Most new systems carry a 5-year warranty.",
-      imageSrc: "/advanta/photos/climate/haier-workshop.webp",
-      imageAlt: "Air-conditioning units in a workshop",
+      imageSrc: "/advanta/photos/climate/replacement-indoor-unit.webp",
+      imageAlt: "Indoor air-conditioning unit in a commercial room",
       primaryCtaLabel: "Get a replacement quote",
     },
     features: {

@@ -38,7 +38,7 @@ export function ServiceClosingCta({
             </a>
           </div>
           <p className="mt-6 whitespace-nowrap text-[11px] tracking-tight text-on-dark-faint sm:whitespace-normal sm:text-xs sm:tracking-normal">
-            Monday to Friday, 08:00 to 17:00 ·{" "}
+            Monday to Friday, 08:00 to 17:00. Emergency call-outs out of hours ·{" "}
             <a href={`mailto:${SERVICE_EMAIL}`} className="font-medium text-on-dark-accent hover:underline">
               {SERVICE_EMAIL}
             </a>

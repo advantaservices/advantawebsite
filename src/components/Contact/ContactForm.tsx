@@ -513,11 +513,11 @@ export function ContactForm({
         </h2>
         <p className="text-muted mx-auto mt-3 max-w-2xl text-sm leading-relaxed md:text-base">
           {isPage
-            ? "Share a few details about what you need and where you are. We will come back with clear advice, usually the same working day."
+            ? "Tell us the town, the job, and what is already there. A photo of the consumer unit, the room, or the indoor and outdoor units is enough for a clear price, usually the same working day."
             : "Send a quick message. We will reply as soon as we can, usually the same working day."}
         </p>
       </div>
-      <div className="mx-auto mt-8 max-w-6xl border-t border-[var(--border)] pt-8 md:mt-10 md:pt-10">
+      <div className="themed-card mx-auto mt-8 max-w-6xl rounded-md px-5 py-6 shadow-sm md:mt-10 md:px-8 md:py-8">
         <div
           className={`grid gap-8 lg:gap-0 lg:divide-x lg:divide-[var(--border)] ${
             isPage ? "lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)]" : "lg:grid-cols-[minmax(0,240px)_1fr]"

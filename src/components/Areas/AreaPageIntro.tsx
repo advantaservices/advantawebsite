@@ -25,7 +25,7 @@ export function AreaPageIntro({ county, paragraphs }: { county: string; paragrap
           <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-strong">Call us</p>
           <p className="mt-2 text-lg font-semibold tracking-tight text-foreground">Book work in {county}</p>
           <p className="text-muted mt-2 text-sm leading-relaxed">
-            Qualified and insured. Electrical and air conditioning, with a clear price before we book. Monday to Friday, 08:00 to 17:00.
+            Qualified and insured. Electrical and air conditioning, with a clear price before we book. Monday to Friday, 08:00 to 17:00, with emergency call-outs out of hours.
           </p>
           <a href={SERVICE_PHONE_TEL} className="mt-4 block text-2xl font-semibold tracking-tight text-foreground hover:text-brand-strong">
             {SERVICE_PHONE_LABEL}

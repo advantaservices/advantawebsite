@@ -3,7 +3,6 @@ import { PageHero } from "@/components/Layout/PageHero";
 import { Section } from "@/components/Layout/Section";
 import { CONTACT_PAGE_FAQS } from "@/components/Contact/contactPageFaqs";
 import { ContactPageForm } from "@/components/Contact/ContactPageForm";
-import { TradeHqEnquiry } from "@/components/Contact/TradeHqEnquiry";
 import { HomeRecommendations } from "@/components/Home/HomeRecommendations";
 import { JsonLd, breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
 import { buildFaqSchema } from "@/lib/faq-schema";
@@ -35,16 +34,15 @@ export default function ContactPage() {
       <PageHero
         eyebrow="Contact"
         title="Get in touch"
-        lead="Monday to Friday, 08:00 to 17:00. Weekend by arrangement."
-        imageSrc="/advanta/photos/about/engineer.webp"
-        imageAlt="Advanta engineer on an air-conditioning install"
+        lead="Call, or send the job and a photo. Electrical or air conditioning. We will come back with a clear price, usually the same working day."
+        imageSrc="/advanta/photos/climate/fujitsu-living-room.webp"
+        imageAlt="Fujitsu indoor air-conditioning unit in a living room"
         compact
       />
       <Suspense fallback={<ContactFormFallback />}>
         <ContactPageForm />
       </Suspense>
       <HomeRecommendations />
-      <TradeHqEnquiry />
     </>
   );
 }

@@ -36,7 +36,6 @@ const businessJsonLd = {
   "@id": `${siteUrl}/#localbusiness`,
   name: business.name,
   legalName: business.legalName,
-  alternateName: business.tradingAs,
   url: siteUrl,
   logo: `${siteUrl}/advanta/logo/mark-on-light.png`,
   image: `${siteUrl}${business.ogImagePath}`,
@@ -57,7 +56,7 @@ const businessJsonLd = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Electrician & Air Conditioning in Spalding | Advanta",
+    default: "Electrical & Air Conditioning in Spalding | Advanta",
     template: "%s | Advanta",
   },
   description: siteDescription,
@@ -66,7 +65,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "/",
     locale: "en_GB",
-    title: "Electrician & Air Conditioning in Spalding | Advanta",
+    title: "Electrical & Air Conditioning in Spalding | Advanta",
     description: siteDescription,
     siteName: business.name,
     images: [
@@ -81,7 +80,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Electrician & Air Conditioning in Spalding | Advanta",
+    title: "Electrical & Air Conditioning in Spalding | Advanta",
     description: siteDescription,
     images: [business.ogImagePath],
   },
@@ -105,7 +104,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           }}
         />
         <GoogleConsentSync />
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
           {isComingSoon ? (
             <ComingSoonScreen />
           ) : (

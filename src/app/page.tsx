@@ -8,7 +8,7 @@ import { HomeEnquiryForm } from "@/components/Home/HomeEnquiryForm";
 import { buildPageMetadata } from "@/lib/metadata";
 
 export const metadata = buildPageMetadata({
-  title: "Electrician & Air Conditioning in Spalding | Advanta",
+  title: "Electrical & Air Conditioning in Spalding | Advanta",
   description:
     "Advanta Services: electrical and air conditioning around Spalding and Peterborough. Rewires, EICRs, lighting, EV charging and air-con.",
   path: "/",

@@ -17,8 +17,9 @@ export const CONTACT_PAGE_FAQS: ServiceFaqItem[] = [
       "We are based around Spalding and Peterborough, including Wisbech, Boston and Stamford. We cover Lincolnshire, Cambridgeshire, Norfolk, Suffolk, Essex, Hertfordshire, Northamptonshire and Rutland. Call us with the town and the job.",
   },
   {
-    question: "Are you out of hours?",
-    answer: "Hours are Monday to Friday, 08:00 to 17:00. Weekend by arrangement.",
+    question: "Do you do emergency call-outs?",
+    answer:
+      "Yes. The usual day is Monday to Friday, 08:00 to 17:00, and we also do emergency call-outs out of hours. Call and we will tell you when we can get there.",
   },
   {
     question: "What should I send with the enquiry?",

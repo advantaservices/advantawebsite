@@ -235,7 +235,7 @@ export function MobileNavbar() {
                 onClose={close}
               />
               <MobileDropdown
-                label="Air conditioning"
+                label="Air Conditioning"
                 indexHref="/air-conditioning"
                 items={CLIMATE_NAV_LINKS}
                 isOpen={climateOpen}

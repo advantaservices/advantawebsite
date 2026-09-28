@@ -9,8 +9,8 @@ const tiles = [
     title: "Rewires",
     href: "/electrical/rewires",
     icon: Cable,
-    image: "/advanta/photos/electrical/rewire-exposed.webp",
-    alt: "First-fix rewire in a house renovation",
+    image: "/advanta/photos/electrical/rewire-trunking.webp",
+    alt: "Trunking and first-fix cabling during a rewire",
   },
   {
     title: "Fuseboards",
@@ -23,8 +23,8 @@ const tiles = [
     title: "EICR testing",
     href: "/electrical/eicr",
     icon: ShieldCheck,
-    image: "/advanta/photos/electrical/eicr-rcbo.webp",
-    alt: "RCBO consumer unit prepared for an EICR",
+    image: "/advanta/photos/electrical/eicr-old-board.webp",
+    alt: "Older consumer unit opened during an EICR",
   },
   {
     title: "Lighting",
@@ -66,7 +66,7 @@ const tiles = [
 export function HomeServices() {
   return (
     <Section muted>
-      <div className="mx-auto max-w-3xl text-center">
+      <div className="mx-auto max-w-5xl text-center">
         <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-strong md:text-xs">
           What we do
         </p>
@@ -74,8 +74,8 @@ export function HomeServices() {
           <span className="sm:hidden">Electrical and climate work</span>
           <span className="hidden sm:inline">Practical electrical and climate work</span>
         </h2>
-        <p className="text-muted mx-auto mt-3 max-w-2xl text-sm leading-relaxed md:text-base">
-          Domestic, commercial and agricultural jobs around Spalding, Peterborough and Wisbech.
+        <p className="text-muted mx-auto mt-3 text-sm leading-relaxed md:whitespace-nowrap md:text-base">
+          Domestic, commercial, industrial and agricultural jobs around Spalding, Peterborough and Wisbech.
         </p>
       </div>
 

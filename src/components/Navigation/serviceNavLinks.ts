@@ -12,8 +12,8 @@ export const ELECTRICAL_NAV_LINKS = [
   {
     label: "Rewires",
     href: "/electrical/rewires",
-    imageSrc: "/advanta/photos/electrical/rewire-exposed.webp",
-    imageAlt: "House renovation rewire with first-fix cables",
+    imageSrc: "/advanta/photos/electrical/rewire-trunking.webp",
+    imageAlt: "Trunking and first-fix cabling during a rewire",
     blurb:
       "Full and partial rewires for houses and renovations around Spalding and Peterborough. First fix, a new consumer unit where it is part of the job, and a certificate at the end.",
     navBlurb: "Full and partial rewires, tested and certified.",
@@ -32,8 +32,8 @@ export const ELECTRICAL_NAV_LINKS = [
   {
     label: "EICR testing",
     href: "/electrical/eicr",
-    imageSrc: "/advanta/photos/electrical/eicr-rcbo.webp",
-    imageAlt: "RCBO consumer unit prepared for EICR testing",
+    imageSrc: "/advanta/photos/electrical/eicr-old-board.webp",
+    imageAlt: "Older consumer unit opened during an EICR",
     blurb:
       "EICR testing for homeowners and landlords. A written report with C1, C2, C3 and FI codes, explained in plain language, plus a quote for anything that needs putting right.",
     navBlurb: "A written report for homes, rentals and sales.",
@@ -43,7 +43,7 @@ export const ELECTRICAL_NAV_LINKS = [
     label: "Lighting",
     href: "/electrical/lighting",
     imageSrc: "/advanta/photos/electrical/showroom-lighting.webp",
-    imageAlt: "Finished commercial showroom pendant lighting",
+    imageAlt: "Commercial showroom lighting installation",
     blurb:
       "Indoor and outdoor lighting for houses and commercial rooms. Pendants, LED handrails, media walls, patio lights, showroom track and warehouse floods.",
     navBlurb: "Indoor and outdoor lighting for homes and sites.",
@@ -102,8 +102,8 @@ export const ELECTRICAL_NAV_LINKS = [
   {
     label: "PAT testing",
     href: "/electrical/pat-testing",
-    imageSrc: "/advanta/photos/electrical/consumer-unit-labelled.webp",
-    imageAlt: "Labelled consumer unit",
+    imageSrc: "/advanta/photos/electrical/pat-testing.webp",
+    imageAlt: "PAT tester and labelled extension lead during portable appliance testing",
     blurb: "PAT testing of portable appliances, with a written record of what passed and what failed.",
     points: ["Portable appliances and leads", "Workshops and commercial rooms", "Pass and fail recorded", "Separate from an EICR"],
   },
@@ -150,8 +150,8 @@ export const CLIMATE_NAV_LINKS = [
   {
     label: "Repairs",
     href: "/air-conditioning/repairs",
-    imageSrc: "/advanta/photos/climate/engineer-airstage.webp",
-    imageAlt: "Engineer working on a Fujitsu air-conditioning system",
+    imageSrc: "/advanta/photos/climate/repair-outdoor-board.webp",
+    imageAlt: "Outdoor air-conditioning unit opened for a repair",
     blurb: "Fault finding and repairs when a system has stopped cooling, is leaking, or is noisy.",
     navBlurb: "Repairs when a system stops cooling or leaks.",
     points: ["No cooling or heating", "Leaks and noisy units", "Diagnose before parts are ordered", "We say if replacement is the better job"],
@@ -159,8 +159,8 @@ export const CLIMATE_NAV_LINKS = [
   {
     label: "Replacements",
     href: "/air-conditioning/replacements",
-    imageSrc: "/advanta/photos/climate/haier-workshop.webp",
-    imageAlt: "Air-conditioning units in a workshop",
+    imageSrc: "/advanta/photos/climate/replacement-indoor-unit.webp",
+    imageAlt: "Indoor air-conditioning unit in a commercial room",
     blurb: "Replacement and upgrade of existing air conditioning, domestic and commercial.",
     navBlurb: "Replacing an old or failed air-con system.",
     points: ["Old or failed systems", "Like-for-like or an upgrade", "Old plant removed", "5-year warranty on most new systems"],

@@ -6,9 +6,9 @@ import { business } from "@/lib/site-config";
 
 const highlights = [
   "Electrical and air conditioning, equal weight",
-  "Spalding, Peterborough and the towns between",
+  "Domestic, commercial, industrial and agricultural",
   "Qualified and insured",
-  "Most air-conditioning systems: 5-year warranty",
+  "Passionate about the work",
 ];
 
 export function AboutIntro() {
@@ -18,22 +18,22 @@ export function AboutIntro() {
         <RevealBlock variant="slide-left" className="relative h-[320px] overflow-hidden rounded-md md:h-[460px]">
           <Image
             src="/advanta/photos/about/engineer.webp"
-            alt="Advanta engineer installing a Fujitsu Airstage system"
+            alt="Advanta engineer installing a Fujitsu air-conditioning system"
             fill
             sizes="50vw"
             className="object-cover"
           />
         </RevealBlock>
         <RevealBlock variant="slide-right" className="space-y-6">
-          <h2 className="text-3xl font-semibold tracking-tight">Local, personal, two trades</h2>
+          <h2 className="text-3xl font-semibold tracking-tight">Two trades, one person to deal with</h2>
           <p className="text-muted text-base leading-8">
-            Advanta Services LTD trades as Advanta Electrical & Climate. We are a small firm working
-            around Spalding and Peterborough. You get lots of experience, honest pricing, and support
-            after the install.
+            Chris has been in the industry for over 10 years. Advanta Services LTD is his company.
+            The work is electrical and air conditioning, given the same attention, across domestic,
+            commercial, industrial and agricultural jobs around Spalding and Peterborough.
           </p>
           <p className="text-muted text-base leading-8">
-            The van is a Ford Transit Custom, YS67 TKE. Chris is the person you deal with. Hours are
-            Monday to Friday, 08:00 to 17:00, with weekend work by arrangement.
+            You speak to Chris, not a call centre. He is qualified and insured, and he is passionate
+            about doing the job properly. {business.hoursLabel}
           </p>
           <ul className="grid gap-3 sm:grid-cols-2">
             {highlights.map((item) => (
@@ -50,7 +50,7 @@ export function AboutIntro() {
                 {business.phoneDisplay}
               </a>
             </p>
-            <p className="text-muted">Monday to Friday, 08:00 to 17:00. Weekend by arrangement.</p>
+            <p className="text-muted">{business.hoursLabel}</p>
           </div>
         </RevealBlock>
       </div>

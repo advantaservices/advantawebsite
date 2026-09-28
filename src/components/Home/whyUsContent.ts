@@ -1,7 +1,7 @@
 export const WHY_US_REASONS = [
   {
     title: "Electrical and air conditioning",
-    body: "One firm for both trades, from small domestic jobs through to larger commercial and agricultural projects.",
+    body: "One firm for both trades, from small domestic jobs through to commercial, industrial and agricultural projects.",
     mobileBody: "One firm for both trades, from small domestic jobs to larger commercial projects.",
   },
   {

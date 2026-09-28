@@ -19,8 +19,8 @@ const HERO_PHOTOS = [
     origin: "42% 58%",
   },
   {
-    desktop: "/advanta/photos/hero/ford-desktop.webp",
-    mobile: "/advanta/photos/hero/ford-mobile.webp",
+    desktop: "/advanta/photos/hero/ford-focus-desktop.webp",
+    mobile: "/advanta/photos/hero/ford-focus-mobile.webp",
     alt: "Commercial showroom lighting at a Ford dealer",
     origin: "center",
   },
@@ -123,13 +123,13 @@ export function HomeHero() {
             className={`reveal-rise ${visibleClass} text-4xl font-semibold leading-tight tracking-tight text-on-dark md:text-5xl lg:text-6xl`}
             style={revealDelay(130)}
           >
-            Electrician and air conditioning in Spalding and Peterborough
+            Electrical and Air Conditioning in Spalding and Peterborough
           </h1>
           <p
             className={`reveal-rise ${visibleClass} max-w-2xl text-base leading-relaxed text-on-dark-muted md:text-lg`}
             style={revealDelay(260)}
           >
-            Domestic, commercial and agricultural work around Spalding and Peterborough. Clear pricing,
+            Domestic, commercial, industrial and agricultural work around Spalding and Peterborough. Clear pricing,
             tidy finishes, and support after the install.
           </p>
           <div className={`reveal-rise ${visibleClass} flex flex-col gap-3 pt-1 sm:flex-row sm:flex-wrap sm:items-center`} style={revealDelay(390)}>
@@ -141,7 +141,7 @@ export function HomeHero() {
             </Link>
           </div>
           <p className={`reveal-rise ${visibleClass} text-xs text-on-dark-muted`} style={revealDelay(480)}>
-            Qualified and insured · 5-year air-conditioning warranty · Spalding and Peterborough
+            Qualified and insured · Passionate about what we do
           </p>
         </div>
       </div>

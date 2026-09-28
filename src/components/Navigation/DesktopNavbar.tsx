@@ -149,7 +149,7 @@ export function DesktopNavbar() {
 
         <nav aria-label="Primary navigation" className="flex items-center gap-0.5 whitespace-nowrap xl:gap-2">
           <NavDropdown label="Electrical" indexHref="/electrical" items={ELECTRICAL_NAV_LINKS} />
-          <NavDropdown label="Air conditioning" indexHref="/air-conditioning" items={CLIMATE_NAV_LINKS} />
+          <NavDropdown label="Air Conditioning" indexHref="/air-conditioning" items={CLIMATE_NAV_LINKS} />
 
           {PRIMARY_NAV_LINKS.map((item) => (
             <Link

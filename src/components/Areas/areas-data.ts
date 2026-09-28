@@ -31,7 +31,7 @@ export const locations: LocationPageData[] = [
     heroImage: "/advanta/photos/hero/van.webp",
     heroImageAlt: "Advanta Services van on a local job",
     heroDescription: "Electrical and air conditioning in Spalding, Pinchbeck, Holbeach, Bourne and the Deepings. Call us and we will get the job booked.",
-    metaTitle: "Electrician and Air Conditioning in Spalding & Pinchbeck | Advanta",
+    metaTitle: "Electrical and Air Conditioning in Spalding & Pinchbeck | Advanta",
     metaDescription: "Electrical and air conditioning in Spalding, Pinchbeck, Holbeach, Bourne, Crowland and Market Deeping. Call Advanta for a quote.",
     intro: [
       "Spalding and Pinchbeck are the centre of the work. We cover Holbeach, Crowland, Bourne, Long Sutton, Gosberton, Sutton Bridge and Market Deeping for electrical jobs and air conditioning.",
@@ -72,7 +72,7 @@ export const locations: LocationPageData[] = [
     heroImage: "/advanta/photos/electrical/showroom-lighting.webp",
     heroImageAlt: "Commercial lighting work covering the Peterborough area",
     heroDescription: "Electrical and air conditioning in Peterborough, Hampton, Werrington, Whittlesey and the Ortons. Call us for a quote.",
-    metaTitle: "Electrician and Air Conditioning in Peterborough | Advanta",
+    metaTitle: "Electrical and Air Conditioning in Peterborough | Advanta",
     metaDescription: "Electrical and air conditioning in Peterborough, Hampton, Werrington, the Ortons, Eye and Whittlesey. Call Advanta for a quote.",
     intro: [
       "Peterborough is a regular part of the work. We cover Hampton, Werrington, the Ortons, Eye, Whittlesey and Market Deeping for electrical work and air conditioning.",
@@ -113,7 +113,7 @@ export const locations: LocationPageData[] = [
     heroImage: "/advanta/photos/climate/fujitsu-patio.webp",
     heroImageAlt: "Residential air-conditioning outdoor unit",
     heroDescription: "Electrical and air conditioning in Wisbech, March, Long Sutton and Sutton Bridge. Call us to book.",
-    metaTitle: "Electrician and Air Conditioning in Wisbech | Advanta",
+    metaTitle: "Electrical and Air Conditioning in Wisbech | Advanta",
     metaDescription: "Electrical and air conditioning in Wisbech, March, Long Sutton, Sutton Bridge and Whittlesey. Call Advanta for a quote.",
     intro: [
       "Wisbech is a regular town for us. We cover March, Long Sutton, Sutton Bridge and Whittlesey as well, for electrical work and air conditioning.",
@@ -154,7 +154,7 @@ export const locations: LocationPageData[] = [
     heroImage: "/advanta/photos/electrical/warehouse-floodlights.webp",
     heroImageAlt: "Commercial exterior lighting at night",
     heroDescription: "Electrical and air conditioning in Boston, Kirton, Sutterton, Heckington and Sleaford. Call us for a quote.",
-    metaTitle: "Electrician and Air Conditioning in Boston, Lincolnshire | Advanta",
+    metaTitle: "Electrical and Air Conditioning in Boston, Lincolnshire | Advanta",
     metaDescription: "Electrical and air conditioning in Boston, Kirton, Sutterton, Heckington and Sleaford. Call Advanta for a quote.",
     intro: [
       "Boston is one of the towns we cover as a matter of course, with Kirton, Sutterton, Heckington and Sleaford on the same side of Lincolnshire.",
@@ -195,7 +195,7 @@ export const locations: LocationPageData[] = [
     heroImage: "/advanta/photos/climate/mitsubishi-outdoor.webp",
     heroImageAlt: "Mitsubishi outdoor condenser on a brick house",
     heroDescription: "Electrical and air conditioning in Stamford, Bourne, the Deepings, Ketton and Ryhall. Call us to book.",
-    metaTitle: "Electrician and Air Conditioning in Stamford | Advanta",
+    metaTitle: "Electrical and Air Conditioning in Stamford | Advanta",
     metaDescription: "Electrical and air conditioning in Stamford, Bourne, the Deepings, Ketton and Ryhall. Call Advanta for a quote.",
     intro: [
       "Stamford, Bourne and the Deepings are a regular run, with Ketton and Ryhall on the same side of the patch. We cover them for electrical work and air conditioning.",
@@ -236,7 +236,7 @@ export const locations: LocationPageData[] = [
     heroImage: "/advanta/photos/hero/van.webp",
     heroImageAlt: "Advanta Services van on a Lincolnshire job",
     heroDescription: "Electrical and air conditioning across Lincolnshire, from Spalding and Boston to Stamford, Holbeach and Sleaford. Call us to book.",
-    metaTitle: "Electrician and Air Conditioning in Lincolnshire | Advanta",
+    metaTitle: "Electrical and Air Conditioning in Lincolnshire | Advanta",
     metaDescription: "Electrical and air conditioning across Lincolnshire, including Spalding, Boston, Stamford, Holbeach, Bourne and Sleaford. Call Advanta for a quote.",
     intro: [
       "Lincolnshire is where we work. Spalding and Pinchbeck are the base, and we cover Boston, Bourne, Stamford, Holbeach, Sleaford, Long Sutton and the towns listed on this page.",
@@ -277,7 +277,7 @@ export const locations: LocationPageData[] = [
     heroImage: "/advanta/photos/electrical/showroom-lighting.webp",
     heroImageAlt: "Commercial lighting installed for a Cambridgeshire job",
     heroDescription: "Electrical and air conditioning across Cambridgeshire, including Peterborough, Wisbech, March, Ely and Huntingdon. Call us for a quote.",
-    metaTitle: "Electrician and Air Conditioning in Cambridgeshire | Advanta",
+    metaTitle: "Electrical and Air Conditioning in Cambridgeshire | Advanta",
     metaDescription: "Electrical and air conditioning in Peterborough, Wisbech, March, Whittlesey, Ely, Huntingdon and across Cambridgeshire. Call Advanta for a quote.",
     intro: [
       "We cover Cambridgeshire. Peterborough and Wisbech are the towns we are in most often, with March, Whittlesey, Ely, Huntingdon, St Neots and St Ives on the same list.",
@@ -318,7 +318,7 @@ export const locations: LocationPageData[] = [
     heroImage: "/advanta/photos/climate/fujitsu-patio.webp",
     heroImageAlt: "Outdoor air-conditioning unit on a residential patio",
     heroDescription: "Electrical and air conditioning across Norfolk, including King's Lynn, Downham Market, Hunstanton and Swaffham. Call us to book.",
-    metaTitle: "Electrician and Air Conditioning in Norfolk | Advanta",
+    metaTitle: "Electrical and Air Conditioning in Norfolk | Advanta",
     metaDescription: "Electrical and air conditioning in King's Lynn, Downham Market, Hunstanton, Swaffham and across Norfolk. Call Advanta for a quote.",
     intro: [
       "We cover Norfolk. King's Lynn and Downham Market are the towns we name first, with Hunstanton, Swaffham, Fakenham, Dersingham, Heacham and Terrington on the same list.",
@@ -359,7 +359,7 @@ export const locations: LocationPageData[] = [
     heroImage: "/advanta/photos/climate/mitsubishi-outdoor.webp",
     heroImageAlt: "Mitsubishi outdoor condenser on a brick house",
     heroDescription: "Electrical and air conditioning across Suffolk, including Bury St Edmunds, Newmarket, Mildenhall and Haverhill. Call us for a quote.",
-    metaTitle: "Electrician and Air Conditioning in Suffolk | Advanta",
+    metaTitle: "Electrical and Air Conditioning in Suffolk | Advanta",
     metaDescription: "Electrical and air conditioning in Bury St Edmunds, Newmarket, Mildenhall, Haverhill, Sudbury and across Suffolk. Call Advanta for a quote.",
     intro: [
       "We cover Suffolk. Bury St Edmunds, Newmarket, Mildenhall, Haverhill, Sudbury, Stowmarket, Brandon and Lakenheath are the towns on this page, for electrical work and air conditioning.",
@@ -400,7 +400,7 @@ export const locations: LocationPageData[] = [
     heroImage: "/advanta/photos/climate/daikin-kitchen.webp",
     heroImageAlt: "Daikin indoor air-conditioning unit in a kitchen",
     heroDescription: "Electrical and air conditioning across Essex, including Saffron Walden, Chelmsford, Colchester and Braintree. Call us to book.",
-    metaTitle: "Electrician and Air Conditioning in Essex | Advanta",
+    metaTitle: "Electrical and Air Conditioning in Essex | Advanta",
     metaDescription: "Electrical and air conditioning in Saffron Walden, Chelmsford, Colchester, Braintree, Halstead and across Essex. Call Advanta for a quote.",
     intro: [
       "We cover Essex. Saffron Walden, Braintree, Chelmsford, Colchester, Halstead, Great Dunmow, Stansted and Witham are the towns on this page.",
@@ -441,7 +441,7 @@ export const locations: LocationPageData[] = [
     heroImage: "/advanta/photos/electrical/landing-handrail.webp",
     heroImageAlt: "LED handrail lighting on a residential landing",
     heroDescription: "Electrical and air conditioning across Hertfordshire, including Royston, Hitchin, Stevenage and Bishop's Stortford. Call us for a quote.",
-    metaTitle: "Electrician and Air Conditioning in Hertfordshire | Advanta",
+    metaTitle: "Electrical and Air Conditioning in Hertfordshire | Advanta",
     metaDescription: "Electrical and air conditioning in Royston, Hitchin, Stevenage, Bishop's Stortford, Letchworth and across Hertfordshire. Call Advanta for a quote.",
     intro: [
       "We cover Hertfordshire. Bishop's Stortford, Royston, Hitchin, Stevenage, Ware, Baldock, Buntingford and Letchworth are the towns on this page.",
@@ -482,7 +482,7 @@ export const locations: LocationPageData[] = [
     heroImage: "/advanta/photos/electrical/three-phase-board.webp",
     heroImageAlt: "Three-phase consumer unit during an electrical installation",
     heroDescription: "Electrical and air conditioning across Northamptonshire, including Northampton, Kettering, Corby and Oundle. Call us to book.",
-    metaTitle: "Electrician and Air Conditioning in Northamptonshire | Advanta",
+    metaTitle: "Electrical and Air Conditioning in Northamptonshire | Advanta",
     metaDescription: "Electrical and air conditioning in Northampton, Kettering, Corby, Wellingborough, Oundle and across Northamptonshire. Call Advanta for a quote.",
     intro: [
       "We cover Northamptonshire. Northampton, Kettering, Corby, Wellingborough, Oundle, Thrapston, Rushden and Raunds are the towns on this page.",
@@ -523,7 +523,7 @@ export const locations: LocationPageData[] = [
     heroImage: "/advanta/photos/climate/haier-dual-residential.webp",
     heroImageAlt: "Haier outdoor air-conditioning units on a house",
     heroDescription: "Electrical and air conditioning across Rutland, including Oakham, Uppingham, Ketton and Cottesmore. Call us for a quote.",
-    metaTitle: "Electrician and Air Conditioning in Rutland | Advanta",
+    metaTitle: "Electrical and Air Conditioning in Rutland | Advanta",
     metaDescription: "Electrical and air conditioning in Oakham, Uppingham, Ketton, Cottesmore and across Rutland. Call Advanta for a quote.",
     intro: [
       "We cover Rutland. Oakham and Uppingham are the two towns we name first, with Cottesmore, Empingham, Ketton, Langham, Whissendine and Ryhall alongside them.",

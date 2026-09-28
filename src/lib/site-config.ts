@@ -17,7 +17,7 @@ function whatsappLink(base: string) {
 export const business = {
   name: "Advanta Services",
   legalName: "Advanta Services LTD",
-  tradingAs: "Advanta Electrical & Climate",
+  tagline: "Electrical and climate",
   phoneIntl: "+447554576889",
   phoneDisplay: "07554 576889",
   phoneTel: "tel:+447554576889",
@@ -28,7 +28,7 @@ export const business = {
   ogImageHeight: 630,
   isOpen24Hours: false,
   isServiceAreaBusiness: true,
-  hoursLabel: "Monday to Friday, 08:00 to 17:00. Weekend by arrangement.",
+  hoursLabel: "Monday to Friday, 08:00 to 17:00. Emergency call-outs out of hours.",
   facebookUrl: "https://www.facebook.com/advantaservices",
   instagramUrl: "https://www.instagram.com/advantaservices",
   linkedinUrl: "https://www.linkedin.com/company/advantaservices",

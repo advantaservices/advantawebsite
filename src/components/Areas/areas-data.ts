@@ -35,7 +35,7 @@ export const locations: LocationPageData[] = [
     metaDescription: "Electrical and air conditioning in Spalding, Pinchbeck, Holbeach, Bourne, Crowland and Market Deeping. Call Advanta for a quote.",
     intro: [
       "Spalding and Pinchbeck are the centre of the work. We cover Holbeach, Crowland, Bourne, Long Sutton, Gosberton, Sutton Bridge and Market Deeping for electrical jobs and air conditioning.",
-      `Fuseboards, rewires, lighting, testing and air conditioning are everyday work here. Call ${phone} and you deal with us directly. We will come back with a clear price.`,
+      `Fuseboards, rewires, lighting, testing and air conditioning are everyday work here. Call ${phone} and you deal with us directly. Straightforward jobs can often be priced from that. Larger work may need a survey.`,
     ],
     faqs: [
       faq(
@@ -50,7 +50,7 @@ export const locations: LocationPageData[] = [
       ),
       faq(
         "Can you install air conditioning in Spalding?",
-        "Yes. Single splits and multi-split systems for houses and commercial rooms, including Fujitsu, Daikin, Mitsubishi and Haier. Most new systems carry a 5-year warranty. We also service and repair systems already on the wall.",
+        "Yes. Single splits and multi-split systems for houses and commercial rooms, including Fujitsu, Daikin, Mitsubishi and Haier. Most new systems carry a 5-year warranty. We also service and repair systems already fitted.",
         "Yes. New installs, servicing and repairs, including Fujitsu, Daikin, Mitsubishi and Haier. Most new systems carry a 5-year warranty.",
       ),
       faq(
@@ -76,7 +76,7 @@ export const locations: LocationPageData[] = [
     metaDescription: "Electrical and air conditioning in Peterborough, Hampton, Werrington, the Ortons, Eye and Whittlesey. Call Advanta for a quote.",
     intro: [
       "Peterborough is a regular part of the work. We cover Hampton, Werrington, the Ortons, Eye, Whittlesey and Market Deeping for electrical work and air conditioning.",
-      `New-build estates and older houses in the city are both normal jobs. Call ${phone} with the address and what you need. We will price it clearly before anything is booked.`,
+      `New-build estates and older houses in the city are both normal jobs. Call ${phone} with the address and what you need. Straightforward jobs can often be priced from photos. Larger installs may need a survey before the price is fixed.`,
     ],
     faqs: [
       faq(
@@ -158,7 +158,7 @@ export const locations: LocationPageData[] = [
     metaDescription: "Electrical and air conditioning in Boston, Kirton, Sutterton, Heckington and Sleaford. Call Advanta for a quote.",
     intro: [
       "Boston is one of the towns we cover as a matter of course, with Kirton, Sutterton, Heckington and Sleaford on the same side of Lincolnshire.",
-      `Commercial lighting, fuseboards and air conditioning are all part of the work. Call ${phone}. You get a clear price before we book, and you deal with us directly.`,
+      `Commercial lighting, fuseboards and air conditioning are all part of the work. Call ${phone}. Straightforward jobs can often be priced before we book. Larger work may need a survey. You deal with us directly.`,
     ],
     faqs: [
       faq(
@@ -224,8 +224,8 @@ export const locations: LocationPageData[] = [
       ),
       faq(
         "How do I book work in Stamford?",
-        `Call ${phone} or send photos of the room, the board or the outside wall. We reply on working days with a clear price.`,
-        `Call ${phone} or send photos. We reply on working days with a clear price.`,
+        `Call ${phone} or send photos of the room, the board or the outside wall. We reply on working days. Straightforward jobs can often be priced from the photos. Larger work may need a survey.`,
+        `Call ${phone} or send photos. We reply on working days. Larger work may need a survey.`,
       ),
     ],
   },
@@ -240,7 +240,7 @@ export const locations: LocationPageData[] = [
     metaDescription: "Electrical and air conditioning across Lincolnshire, including Spalding, Boston, Stamford, Holbeach, Bourne and Sleaford. Call Advanta for a quote.",
     intro: [
       "Lincolnshire is where we work. Spalding and Pinchbeck are the base, and we cover Boston, Bourne, Stamford, Holbeach, Sleaford, Long Sutton and the towns listed on this page.",
-      `Electrical and air conditioning carry equal weight: rewires, fuseboards, testing, lighting and air conditioning installs. Call ${phone}. Spalding, Boston and Stamford also have their own pages if you want the town detail.`,
+      `Electrical and air conditioning from one company: rewires, fuseboards, testing, lighting and air conditioning installs. Call ${phone}. Spalding, Boston and Stamford also have their own pages if you want the town detail.`,
     ],
     faqs: [
       faq(
@@ -281,7 +281,7 @@ export const locations: LocationPageData[] = [
     metaDescription: "Electrical and air conditioning in Peterborough, Wisbech, March, Whittlesey, Ely, Huntingdon and across Cambridgeshire. Call Advanta for a quote.",
     intro: [
       "We cover Cambridgeshire. Peterborough and Wisbech are the towns we are in most often, with March, Whittlesey, Ely, Huntingdon, St Neots and St Ives on the same list.",
-      `Both trades are available: electrical work and air conditioning. Peterborough and Wisbech have their own pages. Call ${phone} and we will price the job.`,
+      `Both trades are available: electrical work and air conditioning. Peterborough and Wisbech have their own pages. Call ${phone}. Straightforward jobs can often be priced from that. Larger work may need a survey.`,
     ],
     faqs: [
       faq(
@@ -306,7 +306,7 @@ export const locations: LocationPageData[] = [
       ),
       faq(
         "How do I book work in Cambridgeshire?",
-        `Call ${phone} with the town and the job, or send photos through the form. We come back with a clear price, usually the same working day.`,
+        `Call ${phone} with the town and the job, or send photos through the form. We come back, usually the same working day, and say whether we can price it from the photos or need to see the site.`,
         `Call ${phone} or send photos. We usually reply the same working day.`,
       ),
     ],
@@ -322,7 +322,7 @@ export const locations: LocationPageData[] = [
     metaDescription: "Electrical and air conditioning in King's Lynn, Downham Market, Hunstanton, Swaffham and across Norfolk. Call Advanta for a quote.",
     intro: [
       "We cover Norfolk. King's Lynn and Downham Market are the towns we name first, with Hunstanton, Swaffham, Fakenham, Dersingham, Heacham and Terrington on the same list.",
-      `Electrical work and air conditioning are both available. Call ${phone} with the address. We are glad to take Norfolk jobs and we will get you a straight quote.`,
+      `Electrical work and air conditioning are both available. Call ${phone} with the address. Straightforward jobs can often be priced from that. Larger work may need a survey.`,
     ],
     faqs: [
       faq(
@@ -347,7 +347,7 @@ export const locations: LocationPageData[] = [
       ),
       faq(
         "How do I get a Norfolk quote?",
-        `Call ${phone}, Monday to Friday, 08:00 to 17:00, or send photos and the postcode. We reply with a clear price, usually the same working day.`,
+        `Call ${phone}, Monday to Friday, 08:00 to 17:00, or send photos and the postcode. We reply, usually the same working day, and say whether we can price it from the photos or need to see the site.`,
         `Call ${phone} or send photos and the postcode. We usually reply the same working day.`,
       ),
     ],
@@ -363,7 +363,7 @@ export const locations: LocationPageData[] = [
     metaDescription: "Electrical and air conditioning in Bury St Edmunds, Newmarket, Mildenhall, Haverhill, Sudbury and across Suffolk. Call Advanta for a quote.",
     intro: [
       "We cover Suffolk. Bury St Edmunds, Newmarket, Mildenhall, Haverhill, Sudbury, Stowmarket, Brandon and Lakenheath are the towns on this page, for electrical work and air conditioning.",
-      `If the job is in Suffolk, call ${phone}. We will talk it through and come back with a clear price. You deal with us directly, and both trades are available.`,
+      `If the job is in Suffolk, call ${phone}. We will talk it through. Straightforward jobs can often be priced from that. Larger work may need a survey. You deal with us directly, and both trades are available.`,
     ],
     faqs: [
       faq(
@@ -404,7 +404,7 @@ export const locations: LocationPageData[] = [
     metaDescription: "Electrical and air conditioning in Saffron Walden, Chelmsford, Colchester, Braintree, Halstead and across Essex. Call Advanta for a quote.",
     intro: [
       "We cover Essex. Saffron Walden, Braintree, Chelmsford, Colchester, Halstead, Great Dunmow, Stansted and Witham are the towns on this page.",
-      `Electrical and air conditioning are both available. Call ${phone} with the town and the job. We will come back with a clear quote and get it booked.`,
+      `Electrical and air conditioning are both available. Call ${phone} with the town and the job. Straightforward jobs can often be priced from that. Larger work may need a survey.`,
     ],
     faqs: [
       faq(
@@ -445,7 +445,7 @@ export const locations: LocationPageData[] = [
     metaDescription: "Electrical and air conditioning in Royston, Hitchin, Stevenage, Bishop's Stortford, Letchworth and across Hertfordshire. Call Advanta for a quote.",
     intro: [
       "We cover Hertfordshire. Bishop's Stortford, Royston, Hitchin, Stevenage, Ware, Baldock, Buntingford and Letchworth are the towns on this page.",
-      `Call ${phone} for electrical work or air conditioning. We will talk the job through and send a clear price. Qualified and insured, and you deal with us directly.`,
+      `Call ${phone} for electrical work or air conditioning. We will talk the job through. Straightforward jobs can often be priced from that. Larger work may need a survey. Qualified and insured, and you deal with us directly.`,
     ],
     faqs: [
       faq(
@@ -511,7 +511,7 @@ export const locations: LocationPageData[] = [
       ),
       faq(
         "How do I get a Northamptonshire quote?",
-        `Call ${phone} or send photos and the postcode. Monday to Friday, 08:00 to 17:00. We aim to reply the same working day with a clear price.`,
+        `Call ${phone} or send photos and the postcode. Monday to Friday, 08:00 to 17:00. We aim to reply the same working day, and say whether the price can come from the photos or the job needs a look first.`,
         `Call ${phone} or send photos. We aim to reply the same working day.`,
       ),
     ],
@@ -527,7 +527,7 @@ export const locations: LocationPageData[] = [
     metaDescription: "Electrical and air conditioning in Oakham, Uppingham, Ketton, Cottesmore and across Rutland. Call Advanta for a quote.",
     intro: [
       "We cover Rutland. Oakham and Uppingham are the two towns we name first, with Cottesmore, Empingham, Ketton, Langham, Whissendine and Ryhall alongside them.",
-      `The work is electrical and air conditioning, priced before we book and left tidy. Call ${phone}. Stone houses are familiar work, and we plan the install so the finish stays neat.`,
+      `The work is electrical and air conditioning. Straightforward jobs are priced before we book. Larger work may need a survey. Call ${phone}. Stone houses are familiar work, and we plan the install so the finish stays neat.`,
     ],
     faqs: [
       faq(
@@ -552,7 +552,7 @@ export const locations: LocationPageData[] = [
       ),
       faq(
         "How do I book work in Rutland?",
-        `Call ${phone} or send photos of the room, the board or the outside wall. We reply on working days with a clear price, usually the same day.`,
+        `Call ${phone} or send photos of the room, the board or the outside wall. We reply on working days. Straightforward jobs can often be priced from the photos. Larger work may need a survey.`,
         `Call ${phone} or send photos. We usually reply the same working day.`,
       ),
     ],

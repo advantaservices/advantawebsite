@@ -38,7 +38,7 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
     process: {
       title: "From the existing board to a certified rewire",
       intro:
-        "A rewire is planned around the house and how it is lived in. We look at the consumer unit, the circuits that need replacing, and whether you are in the property while the work is done. You get a fixed price before we book, and a certificate when the testing is finished.",
+        "A rewire is planned around the house and how it is lived in. We look at the consumer unit, the circuits that need replacing, and whether you are in the property while the work is done. Photos are usually enough to start. A visit may be needed before the price is fixed, and you get a certificate when the testing is finished.",
       steps: [
         {
           title: "Tell us about the house",
@@ -127,7 +127,7 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
       steps: [
         {
           title: "Send the existing board",
-          body: "A clear photo of the consumer unit, open if you can do that safely, plus the postcode. We will say if other wiring needs attention before a straight swap is the right job.",
+          body: "Send a clear photo of your consumer unit and circuit labels. Please leave all covers in place. Include the postcode. We will say if other wiring needs attention before a straight swap is the right job.",
         },
         {
           title: "A fixed price before we book",
@@ -168,7 +168,7 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
     ],
     closing: {
       title: "An upgrade priced from the board you have",
-      lead: "A clear photo of the consumer unit, open if you can do that safely, plus the postcode. We will say if a straight swap is the right job, and what the new board will cost.",
+      lead: "Send a clear photo of your consumer unit and circuit labels. Please leave all covers in place. We will say if a straight swap is the right job, and what the new board will cost.",
       primaryLabel: "Get a quote",
     },
   },
@@ -347,21 +347,21 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
     path: "/electrical/ev-charging",
     meta: {
       title: "EV Charger Installation, Spalding | Advanta",
-      description: "Home EV charger installation around Spalding and Peterborough, including Rolec. One real install photo.",
+      description: "Home EV charger installation around Spalding and Peterborough, including Rolec and myenergi Zappi.",
     },
     hero: {
       eyebrow: "Electrical",
       title: "Home EV charger installation",
-      lead: "We install home chargers, including Rolec. We have one finished photo of this work so far, and we will not invent a gallery around it.",
-      imageSrc: "/advanta/photos/electrical/ev-rolec.webp",
-      imageAlt: "Rolec home EV charger on a brick cottage",
+      lead: "Home chargers on their own circuit from the consumer unit, including Rolec and myenergi Zappi. We look at the supply and the parking spot before we give a price.",
+      imageSrc: "/advanta/photos/electrical/ev-zappi.webp",
+      imageAlt: "myenergi Zappi home EV charger on a block wall",
       primaryCtaLabel: "Get an EV quote",
     },
     features: {
       title: "What the install includes",
       lead: "A home charger on its own circuit, with the route to the parking bay agreed first. We fit common domestic chargers, including Rolec.",
-      imageSrc: "/advanta/photos/electrical/ev-rolec.webp",
-      imageAlt: "Rolec charger on brickwork",
+      imageSrc: "/advanta/photos/electrical/ev-charger-brick.webp",
+      imageAlt: "Home EV charger on a brick pier beside a front door",
       blocks: [
         {
           title: "The charger",
@@ -455,7 +455,7 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
         },
         {
           title: "The wider job",
-          intro: "This page is for work that is more than one circuit type. The pieces below are often part of it.",
+          intro: "New circuits and alterations, often more than one type of circuit on the same job.",
           items: ["Extra sockets", "Three-phase supplies", "Power to a garage, workshop or outbuilding"],
         },
       ],
@@ -482,7 +482,7 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
     faqs: [
       {
         question: "Where do PAT testing, alarms and CCTV sit?",
-        answer: "Each has its own page, so the scope of this one stays clear. Tell us the site and what you need, and we will say whether it belongs here or on one of those pages.",
+        answer: "PAT testing, alarms and CCTV each have their own page. Tell us the site and we can price them with the rest of the work, or on their own.",
         answerMobile: "PAT testing, alarms and CCTV each have their own page. Tell us the site and we will point you to the right one, or price it from here.",
       },
       {
@@ -608,15 +608,15 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
       eyebrow: "Electrical",
       title: "Three-phase installations",
       lead: "Three-phase boards and supplies for workshops, farms and commercial buildings, where the incoming supply allows it.",
-      imageSrc: "/advanta/photos/electrical/three-phase-board.webp",
-      imageAlt: "Three-phase consumer unit wiring during an installation",
+      imageSrc: "/advanta/photos/electrical/three-phase-hager-open.webp",
+      imageAlt: "Open three-phase Hager board with L1, L2 and L3",
       primaryCtaLabel: "Get a three-phase quote",
     },
     features: {
       title: "Three-phase work",
       lead: "Boards and supplies for workshops, farms and commercial buildings, and larger domestic supplies. Only where three-phase is already available, or can be.",
-      imageSrc: "/advanta/photos/electrical/fuseboard-hager.webp",
-      imageAlt: "Finished consumer unit after electrical installation work",
+      imageSrc: "/advanta/photos/electrical/three-phase-schneider.webp",
+      imageAlt: "Schneider three-phase distribution board in a commercial building",
       blocks: [
         {
           title: "What we install",
@@ -718,7 +718,7 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
     process: {
       title: "From the symptom to a repair that holds",
       intro:
-        "Fault finding is about the cause, not a reset. Tripping circuits, dead sockets and damage already written up on an EICR are traced, priced and repaired so the same fault does not come straight back.",
+        "Fault finding is about the cause, not a reset. Tripping circuits, dead sockets and damage already written up on an EICR are traced and priced. Intermittent faults can take more than one visit.",
       steps: [
         {
           title: "Describe what it is doing",
@@ -726,7 +726,7 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
         },
         {
           title: "Find the cause, then quote the repair",
-          body: "We test until we know why it failed. You get a price before parts are changed or a return visit is booked. One failed circuit does not have to turn into a full rewire.",
+          body: "We test to find the cause. You get a price before parts are changed or a return visit is booked. The attendance and any diagnostic charge are agreed before we come. One failed circuit does not have to turn into a full rewire.",
         },
         {
           title: "Repair and test",
@@ -737,7 +737,7 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
     faqs: [
       {
         question: "Do you reset the breaker and leave?",
-        answer: "No. A reset without a cause is how the same trip comes back. We test until we know why it failed, and you get a price for the repair before parts are changed.",
+        answer: "No. A reset without a cause is how the same trip comes back. We test to find the cause, and you get a price for the repair before parts are changed. Some intermittent faults need a second visit.",
         answerMobile: "No. We find out why it tripped before anything is reset and left. Putting the breaker back on, without a cause, is how the same fault returns.",
       },
       {
@@ -870,8 +870,8 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
     features: {
       title: "What we test",
       lead: "Portable appliances, not the fixed wiring. Workshops, commercial rooms, rentals and home offices. You leave with a written record of what passed and what should come out of use.",
-      imageSrc: "/advanta/photos/electrical/eicr-rcbo.webp",
-      imageAlt: "Consumer unit in a property attended for electrical testing",
+      imageSrc: "/advanta/photos/stock/ukoffice.jpeg",
+      imageAlt: "Open-plan UK office with desks, monitors and chairs",
       blocks: [
         {
           title: "Appliances",
@@ -880,7 +880,7 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
         },
         {
           title: "The record",
-          intro: "Each item is a pass or a fail. Nothing that failed gets a pass mark.",
+          intro: "Each item is a pass or a fail. Failed items are clearly identified and recorded.",
           items: ["Pass and fail written down", "Failed items identified", "The fixed wiring left to an EICR"],
         },
       ],
@@ -896,7 +896,7 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
         },
         {
           title: "Inspect and test on site",
-          body: "Handheld equipment, portable kit and extension leads. Each item is recorded as a pass or a fail. We do not put a pass mark on something that has failed.",
+          body: "Handheld equipment, portable kit and extension leads. Each item is recorded as a pass or a fail. Failed items are clearly identified and recorded.",
         },
         {
           title: "The record, and the failures",
@@ -948,15 +948,15 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
       eyebrow: "Electrical",
       title: "Intruder alarms",
       lead: "Alarm systems for houses and commercial rooms, wired from a proper supply and left working.",
-      imageSrc: "/advanta/photos/electrical/fuseboard-hager.webp",
-      imageAlt: "Consumer unit that supplies alarm and other electrical circuits",
+      imageSrc: "/advanta/photos/electrical/alarm-keypad.webp",
+      imageAlt: "Modern white intruder alarm keypad on an interior wall",
       primaryCtaLabel: "Get an alarm quote",
     },
     features: {
       title: "Alarm work",
       lead: "Intruder alarms for houses and commercial rooms. New systems, and repairs to alarms already fitted. CCTV is a separate job if you want cameras as well.",
-      imageSrc: "/advanta/photos/electrical/consumer-unit-labelled.webp",
-      imageAlt: "Labelled consumer unit after electrical work",
+      imageSrc: "/advanta/photos/electrical/alarm-sensors.webp",
+      imageAlt: "White PIR detectors and a modern alarm sounder on a wall",
       blocks: [
         {
           title: "New systems",
@@ -997,7 +997,7 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
       },
       {
         question: "Can an alarm we already have be repaired?",
-        answer: "Often yes. The make, and a note of what it is doing, are enough to start. Parts are not ordered until you have a price, and we will say if replacing the system is the better spend.",
+        answer: "Often yes. The make, and a note of what it is doing, are enough to start. Parts are not ordered until you have a price, and we will say if a new system is the better option.",
         answerMobile: "Often, yes. Send the make and what the alarm is doing. You get a price before parts are ordered, and we say if a new system is the better job.",
       },
       {
@@ -1033,15 +1033,15 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
       eyebrow: "Electrical",
       title: "CCTV",
       lead: "Cameras for houses and commercial sites, supplied properly and aimed where you can actually use the picture.",
-      imageSrc: "/advanta/photos/electrical/outdoor-patio.webp",
-      imageAlt: "Outside of a house at night, the kind of elevation where a camera is fitted",
+      imageSrc: "/advanta/photos/electrical/cctv-dome.webp",
+      imageAlt: "Hikvision dome camera mounted on a timber post",
       primaryCtaLabel: "Get a CCTV quote",
     },
     features: {
       title: "Camera work",
       lead: "Cameras for houses and commercial sites, aimed where the picture is actually useful. The electrical supply is part of the install.",
-      imageSrc: "/advanta/photos/electrical/consumer-unit-labelled.webp",
-      imageAlt: "Labelled consumer unit supplying electrical circuits",
+      imageSrc: "/advanta/photos/electrical/cctv-rack.webp",
+      imageAlt: "CCTV recorder and network rack in a cabinet",
       blocks: [
         {
           title: "The install",
@@ -1050,7 +1050,7 @@ export const electricalContent: Record<string, ServiceLandingContent> = {
         },
         {
           title: "The building",
-          intro: "Houses and commercial sites, including elevations and yards. A position that cannot see what you want is said so before it is drilled.",
+          intro: "Houses and commercial sites, including elevations and yards. We check that each proposed camera position provides the coverage you need before installation.",
           items: ["Houses and commercial sites", "Outside elevations and yards", "Positions refused when the view will not do the job"],
         },
       ],

@@ -34,7 +34,7 @@ export default function ContactPage() {
       <PageHero
         eyebrow="Contact"
         title="Get in touch"
-        lead="Call, or send the job and a photo. Electrical or air conditioning. We will come back with a clear price, usually the same working day."
+        lead="Call, or send the job and a photo. Electrical or air conditioning. We reply the same working day, and say whether we can price it from the photos or need to see the site."
         imageSrc="/advanta/photos/climate/fujitsu-living-room.webp"
         imageAlt="Fujitsu indoor air-conditioning unit in a living room"
         compact

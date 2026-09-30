@@ -28,7 +28,7 @@ export default function ElectricalIndexPage() {
         items={ELECTRICAL_NAV_LINKS}
         eyebrow="All electrical"
         title="Choose the work you need"
-        lead="Below is just a few of the services that we offer. Open one for the detail, or send a single enquiry with photos and a postcode."
+        lead="Below are some of the services we offer. Open one for the detail, or send a single enquiry with photos and a postcode."
       />
       <ServiceClosingCta
         title="Tell us what needs doing"

@@ -48,7 +48,7 @@ export function ServiceIndexGrid({
                     alt={service.imageAlt}
                     fill
                     sizes="(min-width: 1024px) 46vw, 100vw"
-                    className="object-cover"
+                    className={`object-cover ${service.imageSrc.includes("replacement-indoor") ? "object-top" : "object-center"}`}
                   />
                 </Link>
                 <div className={`p-5 md:p-6 ${imageFirst ? "lg:order-2" : "lg:order-1"}`}>

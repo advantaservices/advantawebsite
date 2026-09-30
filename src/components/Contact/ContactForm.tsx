@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Turnstile, type TurnstileInstance } from "@marsidev/react-turnstile";
 import { Section } from "@/components/Layout/Section";
+import { RevealBlock } from "@/components/Layout/useRevealInView";
 import { business } from "@/lib/site-config";
 import type { ServiceFaqItem } from "@/components/Electrical/serviceLandingShared";
 import {
@@ -504,7 +505,7 @@ export function ContactForm({
 
   return (
     <Section id={isPage ? "enquiry-form" : "contact"} majorSeam={isPage} className={isPage ? "!scroll-mt-16 md:!scroll-mt-20" : ""}>
-      <div className={`mx-auto text-center ${isPage ? "max-w-3xl" : "max-w-5xl"}`}>
+      <RevealBlock variant="fade-up" className={`mx-auto text-center ${isPage ? "max-w-3xl" : "max-w-5xl"}`}>
         <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-strong md:text-xs">
           {isPage ? "Enquiry form" : "Need a quote?"}
         </p>
@@ -513,11 +514,15 @@ export function ContactForm({
         </h2>
         <p className="text-muted mx-auto mt-3 max-w-2xl text-sm leading-relaxed md:text-base">
           {isPage
-            ? "Tell us the town, the job, and what is already there. A photo of the consumer unit, the room, or the indoor and outdoor units is enough for a clear price, usually the same working day."
+            ? "Tell us the town, the job, and what is already there. Photos help. Straightforward jobs can often be priced from them. Larger work may need a survey."
             : "Send a quick message. We will reply as soon as we can, usually the same working day."}
         </p>
-      </div>
-      <div className="themed-card mx-auto mt-8 max-w-6xl rounded-md px-5 py-6 shadow-sm md:mt-10 md:px-8 md:py-8">
+      </RevealBlock>
+      <RevealBlock
+        variant="rise"
+        threshold={0}
+        className="themed-card mx-auto mt-8 max-w-6xl rounded-md px-5 py-6 shadow-sm md:mt-10 md:px-8 md:py-8"
+      >
         <div
           className={`grid gap-8 lg:gap-0 lg:divide-x lg:divide-[var(--border)] ${
             isPage ? "lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)]" : "lg:grid-cols-[minmax(0,240px)_1fr]"
@@ -535,7 +540,7 @@ export function ContactForm({
             </>
           )}
         </div>
-      </div>
+      </RevealBlock>
     </Section>
   );
 }

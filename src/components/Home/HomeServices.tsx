@@ -48,14 +48,14 @@ const tiles = [
     alt: "Commercial plant room panel and cable tray during an installation",
   },
   {
-    title: "Air-con install",
+    title: "Air conditioning install",
     href: "/air-conditioning/installations",
     icon: Snowflake,
     image: "/advanta/photos/climate/fujitsu-living-room.webp",
     alt: "Fujitsu indoor air-conditioning unit in a living room",
   },
   {
-    title: "Air-con servicing",
+    title: "Air conditioning servicing",
     href: "/air-conditioning/servicing",
     icon: Fan,
     image: "/advanta/photos/climate/service-charging.webp",
@@ -71,8 +71,8 @@ export function HomeServices() {
           What we do
         </p>
         <h2 className="mt-2 text-2xl font-semibold tracking-tight text-foreground md:text-3xl">
-          <span className="sm:hidden">Electrical and climate work</span>
-          <span className="hidden sm:inline">Practical electrical and climate work</span>
+          <span className="sm:hidden">Electrical and air conditioning</span>
+          <span className="hidden sm:inline">Electrical and air conditioning services</span>
         </h2>
         <p className="text-muted mx-auto mt-3 text-sm leading-relaxed md:whitespace-nowrap md:text-base">
           Domestic, commercial, industrial and agricultural jobs around Spalding, Peterborough and Wisbech.
@@ -96,16 +96,7 @@ export function HomeServices() {
                 </span>
                 <span className="flex items-center gap-2 px-4 py-3">
                   <Icon className="h-4 w-4 text-brand-strong" aria-hidden strokeWidth={2} />
-                  <span className="text-sm font-semibold text-foreground group-hover:text-brand-strong">
-                    {tile.title === "Air-con servicing" ? (
-                      <>
-                        <span className="sm:hidden">AC servicing</span>
-                        <span className="hidden sm:inline">Air-con servicing</span>
-                      </>
-                    ) : (
-                      tile.title
-                    )}
-                  </span>
+                  <span className="text-sm font-semibold text-foreground group-hover:text-brand-strong">{tile.title}</span>
                 </span>
               </Link>
             </RevealBlock>

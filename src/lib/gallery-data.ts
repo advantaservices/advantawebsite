@@ -24,7 +24,7 @@ const galleryNotes: Record<GalleryKind, string> = {
   "air-con-house":
     "Air conditioning on a house, indoors or on the outside wall. Pipework is run, the system is commissioned, and most new installs carry a 5-year warranty.",
   "air-con-commercial":
-    "Commercial air conditioning, often several outdoor units or a larger system. We install, commission and leave the plant labelled.",
+    "Commercial air conditioning, often several outdoor units or a larger system. We install, commission and leave the system labelled.",
   "air-con-service":
     "A service visit on an existing unit. We check the system, record the readings and say if anything needs attention.",
 };
@@ -55,13 +55,13 @@ export const galleryItems: GalleryItem[] = [
   { src: "/advanta/photos/hero/gym-led-ceiling.webp", alt: "Gym LED ceiling lighting", label: "Fitted LED ceiling lights in a gym", trade: "electrical", finish: "commercial", kind: "commercial-lighting" },
   { src: "/advanta/photos/hero/pool-house-night.webp", alt: "Pool house lighting at night", label: "Pool house lighting at night", trade: "electrical", finish: "domestic", kind: "domestic-lighting" },
   { src: "/advanta/photos/hero/ford-focus-desktop.webp", alt: "Commercial showroom lighting installation", label: "Commercial showroom lighting installation", trade: "electrical", finish: "commercial", kind: "commercial-lighting" },
-  { src: "/advanta/photos/climate/fujitsu-living-room.webp", alt: "Fujitsu indoor unit in a living room", label: "Living room Fujitsu air con unit", trade: "air-con", finish: "domestic", kind: "air-con-house" },
-  { src: "/advanta/photos/climate/daikin-kitchen.webp", alt: "Daikin indoor unit in a kitchen", label: "Daikin air con unit in the kitchen", trade: "air-con", finish: "domestic", kind: "air-con-house" },
-  { src: "/advanta/photos/climate/fujitsu-bedroom.webp", alt: "Fujitsu indoor unit in a bedroom", label: "Fujitsu air con unit in a bedroom", trade: "air-con", finish: "domestic", kind: "air-con-house" },
+  { src: "/advanta/photos/climate/fujitsu-living-room.webp", alt: "Fujitsu indoor unit in a living room", label: "Living room Fujitsu air conditioning unit", trade: "air-con", finish: "domestic", kind: "air-con-house" },
+  { src: "/advanta/photos/climate/daikin-kitchen.webp", alt: "Daikin indoor unit in a kitchen", label: "Daikin air conditioning unit in the kitchen", trade: "air-con", finish: "domestic", kind: "air-con-house" },
+  { src: "/advanta/photos/climate/fujitsu-bedroom.webp", alt: "Fujitsu indoor unit in a bedroom", label: "Fujitsu air conditioning unit in a bedroom", trade: "air-con", finish: "domestic", kind: "air-con-house" },
   { src: "/advanta/photos/climate/fujitsu-commercial-four.webp", alt: "Four Fujitsu outdoor units on a commercial site", label: "Four commercial Fujitsu units", trade: "air-con", finish: "commercial", kind: "air-con-commercial" },
   { src: "/advanta/photos/climate/haier-dual-residential.webp", alt: "Haier dual outdoor units on a house", label: "Dual Haier units on a house", trade: "air-con", finish: "domestic", kind: "air-con-house" },
   { src: "/advanta/photos/climate/engineer-airstage.webp", alt: "Engineer installing a Fujitsu air-conditioning system", label: "Fujitsu system install", trade: "air-con", finish: "commercial", kind: "air-con-commercial" },
-  { src: "/advanta/photos/climate/service-charging.webp", alt: "Outdoor unit being serviced", label: "Outdoor air con service visit", trade: "air-con", finish: "commercial", kind: "air-con-service" },
+  { src: "/advanta/photos/climate/service-charging.webp", alt: "Outdoor unit being serviced", label: "Outdoor air conditioning service visit", trade: "air-con", finish: "commercial", kind: "air-con-service" },
   { src: "/advanta/photos/climate/mitsubishi-outdoor.webp", alt: "Mitsubishi outdoor condenser on a brick house", label: "Mitsubishi outdoor unit on a house", trade: "air-con", finish: "domestic", kind: "air-con-house" },
-  { src: "/advanta/photos/about/van.webp", alt: "Residential air con install", label: "Residential outdoor air con install", trade: "air-con", finish: "domestic", kind: "air-con-house" },
+  { src: "/advanta/photos/about/van.webp", alt: "Residential outdoor air conditioning install", label: "Residential outdoor air conditioning install", trade: "air-con", finish: "domestic", kind: "air-con-house" },
 ];

@@ -30,7 +30,7 @@ export function AreaPageServices({ county }: { county: string }) {
                     alt=""
                     fill
                     sizes="(min-width: 1024px) 25vw, 50vw"
-                    className="object-cover transition duration-300 ease-out group-hover:scale-[1.04]"
+                    className={`object-cover transition duration-300 ease-out group-hover:scale-[1.04] ${service.imageSrc.includes("replacement-indoor") ? "object-top" : "object-center"}`}
                   />
                 </span>
                 <span className="block p-3 sm:p-4">

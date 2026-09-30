@@ -17,6 +17,7 @@ function whatsappLink(base: string) {
 export const business = {
   name: "Advanta Services",
   legalName: "Advanta Services LTD",
+  companyNumber: "17151983",
   tagline: "Electrical and climate",
   phoneIntl: "+447554576889",
   phoneDisplay: "07554 576889",
@@ -29,7 +30,7 @@ export const business = {
   isOpen24Hours: false,
   isServiceAreaBusiness: true,
   hoursLabel: "Monday to Friday, 08:00 to 17:00. Emergency call-outs out of hours.",
-  facebookUrl: "https://www.facebook.com/advantaservices",
+  facebookUrl: "https://www.facebook.com/profile.php?id=61591142612055",
   instagramUrl: "https://www.instagram.com/advantaservices",
   linkedinUrl: "https://www.linkedin.com/company/advantaservices",
 } as const;

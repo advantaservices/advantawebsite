@@ -12,10 +12,10 @@ export const climateContent: Record<string, ServiceLandingContent> = {
     hero: {
       eyebrow: "Air conditioning",
       title: "Single and multi-split installation",
-      lead: "Domestic and commercial air conditioning. Single-split for one room, multi-split where you need more. The electrical supply is part of the install. Fujitsu, Daikin, Mitsubishi and Haier. Most systems: 5-year warranty.",
+      lead: "Domestic and commercial air conditioning that heats as well as cools, including bedrooms, home offices and garden rooms. Single-split for one room, multi-split where you need more. The electrical supply is part of the install. Most new systems: 5-year warranty.",
       imageSrc: "/advanta/photos/climate/fujitsu-living-room.webp",
       imageAlt: "Fujitsu indoor air-conditioning unit in a living room",
-      primaryCtaLabel: "Get an air-con quote",
+      primaryCtaLabel: "Get an air conditioning quote",
     },
     features: {
       title: "Systems we install",
@@ -30,7 +30,7 @@ export const climateContent: Record<string, ServiceLandingContent> = {
         },
         {
           title: "Commercial",
-          intro: "Workshops, showrooms, and replacement of plant that is already on site.",
+          intro: "Workshops, showrooms, and replacement of a system already fitted.",
           items: ["Single-split and multi-split", "Workshop and showroom cooling", "The electrical supply included"],
         },
       ],
@@ -105,26 +105,26 @@ export const climateContent: Record<string, ServiceLandingContent> = {
     },
     features: {
       title: "What a service covers",
-      lead: "Planned maintenance on systems we installed and on systems already on the wall. Filters, coils and a refrigerant check, plus a note of anything close to failing.",
+      lead: "Planned maintenance on systems we installed and on systems already fitted. Filters, coils and a refrigerant check, plus a note of anything close to failing.",
       imageSrc: "/advanta/photos/climate/haier-dual-residential.webp",
       imageAlt: "Haier outdoor dual units on a house",
       blocks: [
         {
           title: "The check",
-          intro: "A service visit is the maintenance. It is not a repair with parts swapped in quietly.",
+          intro: "A service visit is the maintenance. Repairs and replacement parts are quoted separately.",
           items: ["Filters and coils", "A refrigerant check", "The system run before we leave"],
         },
         {
           title: "What you are told",
           intro: "You get a short record of the visit. If it has stopped being a service job, we say so.",
-          items: ["A note of anything close to failing", "Planned visits for commercial sites", "A repair or replacement recommended when that is the better spend"],
+          items: ["A note of anything close to failing", "Planned visits for commercial sites", "A repair or replacement quoted when that is the right next step"],
         },
       ],
     },
     process: {
       title: "From a booking to a system that has been checked",
       intro:
-        "Servicing is planned maintenance: filters, coils and a refrigerant check, with a note of anything close to failing. We service systems we installed and systems that were already on the wall.",
+        "Servicing is planned maintenance: filters, coils and a refrigerant check, with a note of anything close to failing. We service systems we installed and systems already fitted.",
       steps: [
         {
           title: "Tell us the system",
@@ -136,7 +136,7 @@ export const climateContent: Record<string, ServiceLandingContent> = {
         },
         {
           title: "A note of what we found",
-          body: "You get a short record of the visit and anything that should be watched or repaired. If replacement is the better spend, we say that before another service is booked.",
+          body: "You get a short record of the visit and anything that should be watched or repaired. If replacement is the sensible next step, we say that before another service is booked.",
         },
       ],
     },
@@ -144,7 +144,7 @@ export const climateContent: Record<string, ServiceLandingContent> = {
       {
         question: "Will you service a system you did not install?",
         answer: "Yes. Systems we did not fit are still serviced, where we can work on them. Send the make and model if you have them, and we will say if it is something we should leave.",
-        answerMobile: "Yes. We service systems already on the wall, not only ones we fitted. The make and model, if you have them, tell us whether we can take it on.",
+        answerMobile: "Yes. We service systems already fitted, not only ones we installed. The make and model, if you have them, tell us whether we can take it on.",
       },
       {
         question: "What does a service visit include?",
@@ -157,14 +157,14 @@ export const climateContent: Record<string, ServiceLandingContent> = {
         answerMobile: "Send photos of the indoor and outdoor units and describe the fault. We will tell you if it is a service, a repair, or time to replace it.",
       },
       {
-        question: "When is another repair the wrong spend?",
-        answer: "When the plant is old, parts are hard to find, or the same fault has already come back. We say that before another repair is booked, so you can choose with the figures in front of you.",
+        question: "When is another repair the wrong job?",
+        answer: "When the system is old, parts are hard to find, or the same fault has already come back. We say that before another repair is booked, so you can choose with the figures in front of you.",
         answerMobile: "When the unit is old, parts are hard to get, or the same fault has come back. We will say that before another repair is booked in.",
       },
       {
         question: "Can a commercial site go on a regular visit?",
-        answer: "Yes. Offices, workshops and other commercial plant can go on a planned service, at an interval that suits how the system is used. The first enquiry still starts with photos and the postcode.",
-        answerMobile: "Yes. Workshops, offices and other commercial plant can be booked as a planned service, at an interval that matches how hard the system works.",
+        answer: "Yes. Offices, workshops and other commercial systems can go on a planned service, at an interval that suits how the system is used. The first enquiry still starts with photos and the postcode.",
+        answerMobile: "Yes. Workshops, offices and other commercial systems can be booked as a planned service, at an interval that matches how hard the system works.",
       },
     ],
     closing: {
@@ -191,7 +191,7 @@ export const climateContent: Record<string, ServiceLandingContent> = {
     },
     features: {
       title: "Repairs we take on",
-      lead: "Systems that have stopped cooling or heating, are leaking, are noisy, or trip the supply. Homes and commercial plant, including systems we did not install, where parts are available.",
+      lead: "Systems that have stopped cooling or heating, are leaking, are noisy, or trip the supply. Homes and commercial sites, including systems we did not install, where parts are available.",
       imageSrc: "/advanta/photos/climate/engineer-airstage.webp",
       imageAlt: "Engineer working on a Fujitsu air-conditioning system",
       blocks: [
@@ -203,7 +203,7 @@ export const climateContent: Record<string, ServiceLandingContent> = {
         {
           title: "On the visit",
           intro: "The cause is found before parts are ordered. If the system is not worth repairing, that is said before money is spent on it.",
-          items: ["Diagnosis before parts are ordered", "A price before the repair goes ahead", "Replacement recommended when that is the better spend"],
+          items: ["Diagnosis before parts are ordered", "A price before the repair goes ahead", "Replacement recommended when another repair is not worthwhile"],
         },
       ],
     },
@@ -214,11 +214,11 @@ export const climateContent: Record<string, ServiceLandingContent> = {
       steps: [
         {
           title: "Tell us what it is doing",
-          body: "Photos of the indoor and outdoor units, the make if you can see it, and a description of the fault. We work on systems we installed and on plant already on site, where parts are available.",
+          body: "Photos of the indoor and outdoor units, the make if you can see it, and a description of the fault. We work on systems we installed and on systems already fitted, where parts are available.",
         },
         {
           title: "Diagnose, then quote",
-          body: "The cause is found before parts are ordered. You get a price for the repair. If the system is old, parts are scarce, or the same fault has come back, we will say that replacement is the better spend.",
+          body: "The cause is found before parts are ordered. You get a price for the repair. If the system is old, parts are scarce, or the same fault has come back, we will say that replacement is the better option.",
         },
         {
           title: "Repair and test",
@@ -239,7 +239,7 @@ export const climateContent: Record<string, ServiceLandingContent> = {
       },
       {
         question: "What if the repair is not worth doing?",
-        answer: "We say so. If the system is old, parts are scarce, or the same fault has come back, replacement is often the better spend. That work has its own page, and we will point you to it.",
+        answer: "We say so. If the system is old, parts are scarce, or the same fault has come back, replacement is often the better option. That work has its own page, and we will point you to it.",
         answerMobile: "We say so before more money is spent. An old system, scarce parts, or a fault that has come back usually means replacement is the better job.",
       },
       {
@@ -255,7 +255,7 @@ export const climateContent: Record<string, ServiceLandingContent> = {
     ],
     closing: {
       title: "The fault found before parts are ordered",
-      lead: "Photos of both units, the make if you can see it, and a short description of what it is doing. You get a price for the repair, and we will say if replacement is the better spend.",
+      lead: "Photos of both units, the make if you can see it, and a short description of what it is doing. You get a price for the repair, and we will say if replacement is the better option.",
       primaryLabel: "Get a quote",
     },
     schemaType: "HVACBusiness",
@@ -277,7 +277,7 @@ export const climateContent: Record<string, ServiceLandingContent> = {
     },
     features: {
       title: "What we replace",
-      lead: "An indoor unit, an outdoor unit, or the whole system, when another repair is no longer the sensible spend. Domestic and commercial. Most new systems carry a 5-year warranty.",
+      lead: "An indoor unit, an outdoor unit, or the whole system, when another repair is no longer worthwhile. Domestic and commercial. Most new systems carry a 5-year warranty.",
       imageSrc: "/advanta/photos/climate/daikin-kitchen.webp",
       imageAlt: "Daikin indoor unit in a kitchen",
       blocks: [
@@ -288,15 +288,15 @@ export const climateContent: Record<string, ServiceLandingContent> = {
         },
         {
           title: "Commercial",
-          intro: "Failed plant taken out and a new system commissioned, with the electrics included.",
-          items: ["Removal of the failed plant", "The new system commissioned", "A 5-year warranty on most new systems"],
+          intro: "The failed system taken out and a new one commissioned, with the electrics included.",
+          items: ["Removal of the failed system", "The new system commissioned", "A 5-year warranty on most new systems"],
         },
       ],
     },
     process: {
-      title: "From the old plant to a new system",
+      title: "From the old system to a new one",
       intro:
-        "Replacement is for a system that has failed, or is no longer worth repairing. We remove the old plant, fit a new one sized to the space, and commission it, with the electrics included. Most new systems carry a 5-year warranty.",
+        "Replacement is for a system that has failed, or is no longer worth repairing. We remove the old system, fit a new one sized to the space, and commission it, with the electrics included. Most new systems carry a 5-year warranty.",
       steps: [
         {
           title: "Show us what is there",
@@ -308,7 +308,7 @@ export const climateContent: Record<string, ServiceLandingContent> = {
         },
         {
           title: "Remove, install and commission",
-          body: "The old plant comes out. The new system is fitted, commissioned and left tidy, and the controls are explained before we leave.",
+          body: "The old system comes out. The new system is fitted, commissioned and left tidy, and the controls are explained before we leave.",
         },
       ],
     },
@@ -321,12 +321,12 @@ export const climateContent: Record<string, ServiceLandingContent> = {
       {
         question: "Do replacement systems include a warranty?",
         answer: "Most new systems we install carry a 5-year warranty. The cover for your system is confirmed on the quote, along with the price for removal and the new equipment.",
-        answerMobile: "Most replacements include a 5-year warranty. We confirm the cover on the quote, together with removal of the old plant and the new equipment.",
+        answerMobile: "Most replacements include a 5-year warranty. We confirm the cover on the quote, together with removal of the old system and the new equipment.",
       },
       {
         question: "Is the old equipment taken away?",
-        answer: "Yes. Removal of the old indoor and outdoor plant is part of the replacement, not a separate arrangement. The new system is commissioned before we leave, and the site is left tidy.",
-        answerMobile: "Yes. The old plant is removed as part of the job, the new system is commissioned, and the area is left tidy when we finish.",
+        answer: "Yes. Removal of the old indoor and outdoor units is part of the replacement, not a separate arrangement. The new system is commissioned before we leave, and the site is left tidy.",
+        answerMobile: "Yes. The old system is removed as part of the job, the new system is commissioned, and the area is left tidy when we finish.",
       },
       {
         question: "Can the new unit be quieter or larger?",
@@ -335,7 +335,7 @@ export const climateContent: Record<string, ServiceLandingContent> = {
       },
       {
         question: "Does a replacement include the electrics?",
-        answer: "Yes. The electrical supply is part of the new installation, as it is on a first-time fit. You are not arranging a second firm to reconnect power after the old plant comes out.",
+        answer: "Yes. The electrical supply is part of the new installation, as it is on a first-time fit. You are not arranging a second firm to reconnect power after the old system comes out.",
         answerMobile: "The electrics are included. The new system is supplied from the board as part of the job, so you are not booking that connection separately.",
       },
     ],

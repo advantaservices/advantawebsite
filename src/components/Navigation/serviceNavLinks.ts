@@ -52,8 +52,8 @@ export const ELECTRICAL_NAV_LINKS = [
   {
     label: "EV charging",
     href: "/electrical/ev-charging",
-    imageSrc: "/advanta/photos/electrical/ev-rolec.webp",
-    imageAlt: "Rolec home EV charger on a brick cottage",
+    imageSrc: "/advanta/photos/electrical/ev-zappi.webp",
+    imageAlt: "myenergi Zappi home EV charger on a block wall",
     blurb:
       "Home EV charger installation, including Rolec, on its own circuit from the consumer unit. We look at the supply and the parking spot before we give a price.",
     navBlurb: "A home charger on its own circuit from the board.",
@@ -78,8 +78,8 @@ export const ELECTRICAL_NAV_LINKS = [
   {
     label: "Three-phase",
     href: "/electrical/three-phase",
-    imageSrc: "/advanta/photos/electrical/three-phase-board.webp",
-    imageAlt: "Three-phase consumer unit wiring",
+    imageSrc: "/advanta/photos/electrical/three-phase-hager-board.webp",
+    imageAlt: "Three-phase Hager board with L1, L2 and L3",
     blurb: "Three-phase boards and supplies for workshops, farms and commercial buildings.",
     points: ["Workshops and farms", "Machinery supplies", "Checked against the incoming supply", "Tested and certified"],
   },
@@ -110,16 +110,16 @@ export const ELECTRICAL_NAV_LINKS = [
   {
     label: "Intruder alarms",
     href: "/electrical/alarms",
-    imageSrc: "/advanta/photos/electrical/fuseboard-hager.webp",
-    imageAlt: "Consumer unit supplying electrical circuits",
+    imageSrc: "/advanta/photos/electrical/alarm-keypad.webp",
+    imageAlt: "Modern white intruder alarm keypad on an interior wall",
     blurb: "Intruder alarms for houses and commercial rooms, new systems and repairs.",
     points: ["Houses and commercial rooms", "New systems", "Repairs to existing alarms", "Supply included"],
   },
   {
     label: "CCTV",
     href: "/electrical/cctv",
-    imageSrc: "/advanta/photos/electrical/outdoor-patio.webp",
-    imageAlt: "Outside of a house at night",
+    imageSrc: "/advanta/photos/electrical/cctv-dome.webp",
+    imageAlt: "Hikvision dome camera on a timber post",
     blurb: "CCTV for homes and commercial sites, aimed where the picture is actually useful.",
     points: ["Houses and commercial sites", "Positions agreed first", "Cabling and power included", "Separate from intruder alarms"],
   },
@@ -135,7 +135,7 @@ export const CLIMATE_NAV_LINKS = [
     imageAlt: "Fujitsu indoor air-conditioning unit in a living room",
     blurb:
       "Domestic and commercial air conditioning. Single and multi-split systems. Most new systems carry a 5-year warranty.",
-    navBlurb: "Single and multi-split, with a 5-year warranty.",
+    navBlurb: "Single and multi-split. Most new systems: 5-year warranty.",
     points: ["Domestic and commercial", "Single and multi-split", "Electrics included", "5-year warranty on most systems"],
   },
   {
@@ -143,7 +143,7 @@ export const CLIMATE_NAV_LINKS = [
     href: "/air-conditioning/servicing",
     imageSrc: "/advanta/photos/climate/service-charging.webp",
     imageAlt: "Outdoor air-conditioning unit being serviced",
-    blurb: "Servicing and maintenance for systems we installed and for plant already on the wall.",
+    blurb: "Servicing and maintenance for systems we installed and for systems already fitted.",
     navBlurb: "A service for new installs and existing systems.",
     points: ["Filters, coils and refrigerant checks", "Planned visits for commercial sites", "Systems we did not install", "A note of anything close to failing"],
   },
@@ -162,8 +162,8 @@ export const CLIMATE_NAV_LINKS = [
     imageSrc: "/advanta/photos/climate/replacement-indoor-unit.webp",
     imageAlt: "Indoor air-conditioning unit in a commercial room",
     blurb: "Replacement and upgrade of existing air conditioning, domestic and commercial.",
-    navBlurb: "Replacing an old or failed air-con system.",
-    points: ["Old or failed systems", "Like-for-like or an upgrade", "Old plant removed", "5-year warranty on most new systems"],
+    navBlurb: "Replacing an old or failed air conditioning system.",
+    points: ["Old or failed systems", "Like-for-like or an upgrade", "Old system removed", "5-year warranty on most new systems"],
   },
 ] as const satisfies readonly ServiceNavItem[];
 

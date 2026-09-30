@@ -31,7 +31,7 @@ export function FloatingWhatsappButton() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label={promptOpen ? undefined : "Chat with Advanta Services on WhatsApp"}
-      className="fixed bottom-5 right-5 z-50 inline-flex h-16 w-16 items-center justify-center"
+      className="fixed bottom-5 right-5 z-50 inline-flex h-20 w-20 items-center justify-center"
     >
       {promptOpen ? (
         <span className="absolute right-[calc(100%+0.45rem)] top-1/2 -translate-y-1/2">
@@ -47,8 +47,8 @@ export function FloatingWhatsappButton() {
           </span>
         </span>
       ) : null}
-      <span className="whatsapp-horizontal-shake inline-flex h-16 w-16 items-center justify-center transition duration-200 hover:-translate-y-1 hover:scale-105">
-        <Image src="/icons/whatsapp.svg" alt="" width={64} height={64} className="h-16 w-16" unoptimized />
+      <span className="whatsapp-horizontal-shake inline-flex h-20 w-20 items-center justify-center transition duration-200 hover:-translate-y-1 hover:scale-105">
+        <Image src="/icons/whatsapp.svg" alt="" width={80} height={80} className="h-20 w-20" unoptimized />
       </span>
     </a>
   );

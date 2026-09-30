@@ -10,7 +10,7 @@ import { buildPageMetadata } from "@/lib/metadata";
 export const metadata = buildPageMetadata({
   title: "Electrical & Air Conditioning in Spalding | Advanta",
   description:
-    "Advanta Services: electrical and air conditioning around Spalding and Peterborough. Rewires, EICRs, lighting, EV charging and air-con.",
+    "Advanta Services: electrical and air conditioning around Spalding and Peterborough. Rewires, EICRs, lighting, EV charging and air conditioning.",
   path: "/",
 });
 

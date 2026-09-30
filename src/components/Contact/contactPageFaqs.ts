@@ -9,7 +9,7 @@ export const CONTACT_PAGE_FAQS: ServiceFaqItem[] = [
   {
     question: "Do you give fixed prices?",
     answer:
-      "Yes. Once we understand the job we give a clear fixed price before anything is booked. Straightforward work is often priced from photos and a postcode.",
+      "Straightforward jobs can often be priced from photos and a postcode. Larger installations may need a survey. For fault finding, the attendance and any diagnostic charge are agreed before the visit, and the repair is quoted once the fault is identified.",
   },
   {
     question: "Which areas do you cover?",
@@ -23,6 +23,6 @@ export const CONTACT_PAGE_FAQS: ServiceFaqItem[] = [
   },
   {
     question: "What should I send with the enquiry?",
-    answer: "Your postcode, which trade you need, and a short note of the job. Photos help: the consumer unit, the room, or the indoor and outdoor air-con units.",
+    answer: "Your postcode, which trade you need, and a short note of the job. Photos help: the consumer unit, the room, or the indoor and outdoor air conditioning units.",
   },
 ];

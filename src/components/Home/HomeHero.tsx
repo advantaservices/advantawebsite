@@ -19,16 +19,16 @@ const HERO_PHOTOS = [
     origin: "42% 58%",
   },
   {
+    desktop: "/advanta/photos/hero/aircon-outdoor-desktop.webp",
+    mobile: "/advanta/photos/hero/aircon-outdoor-mobile.webp",
+    alt: "Fujitsu outdoor air-conditioning unit on a brick house",
+    origin: "center",
+  },
+  {
     desktop: "/advanta/photos/hero/ford-focus-desktop.webp",
     mobile: "/advanta/photos/hero/ford-focus-mobile.webp",
     alt: "Commercial showroom lighting at a Ford dealer",
     origin: "center",
-  },
-  {
-    desktop: "/advanta/photos/hero/homehero4-desktop.webp",
-    mobile: "/advanta/photos/hero/homehero4-mobile.webp",
-    alt: "Advanta Services van on a commercial air-conditioning job",
-    origin: "68% 50%",
   },
 ] as const;
 
@@ -142,6 +142,9 @@ export function HomeHero() {
           </div>
           <p className={`reveal-rise ${visibleClass} text-xs text-on-dark-muted`} style={revealDelay(480)}>
             Qualified and insured · Passionate about what we do
+          </p>
+          <p className={`reveal-rise ${visibleClass} text-xs text-on-dark-muted`} style={revealDelay(560)}>
+            ECS Gold Card · 2391 · 18th Edition · NAPIT · REFCOM
           </p>
         </div>
       </div>

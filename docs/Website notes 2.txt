@@ -1,0 +1,44 @@
+﻿Website notes 2 
+Overall I have to say im really chuffed with it mate thank you! 
+A couple of little bits hopefully this will finish it up 
+DIdnt load on dark mode on desktop 
+Can the whatsapp button be slightly bigger? No stress if it's hard to do. 
+Please change the photos on the loading page i will send, 
+3rd one to be the aircon one im sending last one to be ford dealership. Remove the AI one. Three phase work the second photo is a single phase board will send you another photo to use. 
+CCTV I will send you a photo 
+Intruder alarm please use stock photo for now, needs changing on the general page too Facebook doesn't link properly. 
+Pat testing please remove the photos of fuseboards. Can you just use a stock one of a kettle or plug or something you feel suits? 
+On air-con section 
+The replacement photo needs adjusting down or larger so you can see the old unit?,it's in a few places.
+I Asked My GPT to go through it as it knows the business it did go abit over the top but ive copied in a few things that i feel should be changed.. 
+Remove the request for an open fuseboard photo. 
+The fuseboard page twice says “open if you can do that safely”. Customers could interpret that as removing the front cover. 
+Replace it with: “Send a clear photo of your consumer unit and circuit labels. Please leave all covers in place.” 
+The EV page says: “We have one finished photo of this work so far, and we will not invent a gallery around it.” 
+That should definitely go. Similar wording appears elsewhere: 
+● Gallery: “First-fix photos stay on the rewire and EICR pages.” 
+● Installations: “This page is for work that is more than one circuit type.” ● FAQ: “We will say whether it belongs here or on one of those pages.” 
+(Ive sent a couple more photos) 
+Company and policy details 
+I couldn’t see your company number this should be on a LTD company website 17151983 
+Separate your experience in each trade. About repeats “over 10 years in the industry”. Make clear that you have around 10 years of electrical experience and four in air conditioning, based on what you previously told me. That avoids implying 10 years in both. 
+Heating as well as cooling. This deserves much more prominence on the air-conditioning pages, especially for bedrooms, home offices and garden rooms.
+Your actual credentials. You’ve told me you hold your electrical NVQ, 2391 inspection and testing qualification, ECS Gold card with Approved Electrician grading, and F-Gas/REFCOM credentials. Those are stronger reasons to trust you than repeating “qualified and insured”. Show the relevant current credentials on the homepage and explain them briefly on About. 
+Please put ECS Gold card electrician, 2391 testing and inspecting, 18th edition. REFCOM Registered for A/C 
+And NAPIT Registered For electrical. 
+Current wording Suggested 
+change 
+Below is just a few of the services that we offer.”“Below are some of the services we offer.” 
+Practical electrical and climate work”“Electrical and air conditioning services” 
+“A position that cannot see what you want is said so before it is drilled.”“We check that each proposed camera position provides the coverage you need before installation.” 
+“Nothing that failed gets a pass mark.”“Failed items are clearly identified and recorded.” 
+“Taken from the Google reviews. The wording is theirs.”“Reviews from our customers on Google.” 
+It is not a repair with parts swapped in quietly.”“Repairs and replacement parts are quoted separately.” 
+“Electrical and air conditioning, equal weight”“Electrical and air conditioning from one company
+Emergency lighting testing and reporting. This could be useful for landlords, managing agents and commercial customers, once you have confirmed the service scope and insurance cover. 
+Air-conditioning pages say “most systems” have a five-year warranty. The area-page cards simply say “with a 5-year warranty”. 
+“We test until we know why it failed” suggests unlimited investigation. “So the same fault does not come straight back” promises an outcome you cannot always guarantee, particularly with intermittent or multiple faults. 
+Change the blanket fixed-price promise. 
+Contact says you give a fixed price “before anything is booked”, and that photos are enough for a clear price. That doesn’t suit every rewire, concealed wiring problem or intermittent fault. 
+Explain that straightforward jobs can often be estimated from photos, larger installations may need a survey, and fault-finding attendance and diagnostic charges are agreed before the visit, with repairs quoted once the fault is identified. 
+I would also use “air conditioning” consistently, keeping “Electrical & Climate” as your branding. “Plant already on the wall” and “better spend” appear repeatedly and sound awkward for domestic customers.

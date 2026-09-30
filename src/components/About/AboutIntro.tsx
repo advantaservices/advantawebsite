@@ -5,10 +5,10 @@ import { RevealBlock } from "@/components/Layout/useRevealInView";
 import { business } from "@/lib/site-config";
 
 const highlights = [
-  "Electrical and air conditioning, equal weight",
-  "Domestic, commercial, industrial and agricultural",
-  "Qualified and insured",
-  "Passionate about the work",
+  "Electrical and air conditioning from one company",
+  "About 10 years electrical, 4 years air conditioning",
+  "ECS Gold Card, 2391 and 18th Edition",
+  "NAPIT registered. REFCOM registered",
 ];
 
 export function AboutIntro() {
@@ -27,13 +27,15 @@ export function AboutIntro() {
         <RevealBlock variant="slide-right" className="space-y-6">
           <h2 className="text-3xl font-semibold tracking-tight">Two trades, one person to deal with</h2>
           <p className="text-muted text-base leading-8">
-            Chris has been in the industry for over 10 years. Advanta Services LTD is his company.
-            The work is electrical and air conditioning, given the same attention, across domestic,
-            commercial, industrial and agricultural jobs around Spalding and Peterborough.
+            Chris has about 10 years in electrical work and 4 years in air conditioning. Advanta
+            Services LTD is his company, company number {business.companyNumber}. The work covers
+            both trades: electrical installation, and air conditioning that heats as well as cools,
+            for domestic, commercial, industrial and agricultural jobs around Spalding and Peterborough.
           </p>
           <p className="text-muted text-base leading-8">
-            You speak to Chris, not a call centre. He is qualified and insured, and he is passionate
-            about doing the job properly. {business.hoursLabel}
+            You speak to Chris. He holds an electrical NVQ, the 2391 inspection and testing
+            qualification, an ECS Gold Card with Approved Electrician grading, and the 18th Edition.
+            Electrical work is NAPIT registered. Air conditioning is REFCOM registered.
           </p>
           <ul className="grid gap-3 sm:grid-cols-2">
             {highlights.map((item) => (

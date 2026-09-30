@@ -8,7 +8,7 @@ export function AreaPageFaqAndCta({ county, faqs }: { county: string; faqs: Serv
     <>
       <ServiceClosingCta
         title={`Call us about work in ${county}`}
-        lead={`Electrical and air conditioning in ${county}. Tell us the job and we will come back with a clear price, usually the same working day. Call ${SERVICE_PHONE_LABEL}.`}
+        lead={`Electrical and air conditioning in ${county}. Tell us the job. Straightforward work can often be priced from photos, usually the same working day. Larger jobs may need a survey. Call ${SERVICE_PHONE_LABEL}.`}
         primaryLabel="Get a quote"
       />
       <ServiceFaq items={faqs} title={`Questions about electrical and air conditioning in ${county}`} />

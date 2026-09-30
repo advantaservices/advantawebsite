@@ -57,7 +57,7 @@ export function ServiceProcess({
                     alt={photo.alt}
                     fill
                     sizes={photos.length > 1 ? "(min-width: 1024px) 40vw, 50vw" : "(min-width: 1024px) 40vw, 100vw"}
-                    className="object-cover"
+                    className={`object-cover ${photo.src.includes("replacement-indoor") ? "object-top" : "object-center"}`}
                   />
                 </RevealBlock>
               ))}

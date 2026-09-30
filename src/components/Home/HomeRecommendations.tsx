@@ -175,7 +175,7 @@ export function HomeRecommendations() {
           What customers have said
         </h2>
         <p className="text-muted mx-auto mt-3 max-w-2xl text-sm leading-relaxed md:text-base">
-          Taken from the Google reviews. The wording is theirs.
+          Reviews from our customers on Google.
         </p>
       </div>
 

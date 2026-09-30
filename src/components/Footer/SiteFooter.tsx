@@ -163,7 +163,8 @@ export function SiteFooter() {
 
         <div className="mt-8 flex flex-col gap-3 border-t border-[color:var(--nav-footer-edge)] pt-6 text-xs text-foreground md:flex-row md:items-center md:justify-between">
           <div>
-            <p className="mb-1">{business.legalName}. {business.tagline}.</p>
+            <p className="mb-1">{business.legalName}. Company number {business.companyNumber}. {business.tagline}.</p>
+            <p className="text-muted mb-1">ECS Gold Card · 2391 · 18th Edition · NAPIT · REFCOM</p>
             <p>© {new Date().getFullYear()} {business.name}. All rights reserved.</p>
           </div>
           <nav aria-label="Legal and policies" className="flex flex-wrap gap-x-3 gap-y-1">

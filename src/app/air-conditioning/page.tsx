@@ -20,7 +20,7 @@ export default function ClimateIndexPage() {
       <PageHero
         eyebrow="Air Conditioning"
         title="Air Conditioning for homes and commercial sites"
-        lead="This is the climate side of the firm: Air Conditioning for houses and commercial sites, single-split and multi-split. The electrical supply is part of the install."
+        lead="Air conditioning that heats as well as cools, for houses and commercial sites. Single-split and multi-split, including bedrooms, home offices and garden rooms. The electrical supply is part of the install."
         imageSrc="/advanta/photos/climate/fujitsu-living-room.webp"
         imageAlt="Fujitsu indoor air-conditioning unit in a living room"
         compact
@@ -30,7 +30,7 @@ export default function ClimateIndexPage() {
         items={CLIMATE_NAV_LINKS}
         eyebrow="Air Conditioning"
         title="Install or service"
-        lead="Installation for a new system, or servicing and repair for plant that is already on the wall."
+        lead="Installation for a new system, or servicing and repair for a system already fitted."
       />
       <ServiceClosingCta
         title="Install, a service, or a system that has stopped"

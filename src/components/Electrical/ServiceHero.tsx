@@ -40,7 +40,7 @@ export function ServiceHero({
         preload
         loading="eager"
         fetchPriority="high"
-        className="object-cover object-center"
+        className={`object-cover ${imageSrc.includes("replacement-indoor") ? "object-top" : "object-center"}`}
       />
       <div className="advanta-hero-overlay absolute inset-0" aria-hidden />
       <div className={`advanta-hero-min-h-sm relative mx-auto flex w-full max-w-7xl items-end px-6 pt-16 md:items-center ${HERO_BOTTOM_ONLY}`}>

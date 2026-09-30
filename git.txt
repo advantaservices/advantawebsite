@@ -1,5 +1,5 @@
 # make your code changes and push to branch
 git checkout -b feat/advantawebchanges
 git add .
-git commit -m "fix build errors"
+git commit -m "revamp v3"
 git push -u origin feat/advantawebchanges
